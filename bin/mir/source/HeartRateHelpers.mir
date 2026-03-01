@@ -1,0 +1,248 @@
+[ @file = "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\HeartRateHelpers.mc"; @line = 1; @symbol_usingdef<0> = [Toybox,1,6,12]; @symbol_usingdef<1> = [UserProfile,1,13,24]; ]
+using Toybox.UserProfile;
+[ @file = "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\HeartRateHelpers.mc"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [Time,2,13,17]; ]
+using Toybox.Time;
+[ @file = "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\HeartRateHelpers.mc"; @line = 4; @symbol_moduledef = [HeartRateHelpers,4,7,23]; ]
+module HeartRateHelpers {
+    [ @file = "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\HeartRateHelpers.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\HeartRateHelpers.mc"; @line = 5; @symbol_functiondef = [getHeartRateMessage,5,13,32]; @symbol_param<0> = [currentHr,5,33,42]; @symbol_param<1> = [maxHr,5,44,49]; ]
+    function getHeartRateMessage(currentHr, maxHr) {
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_5_51_18_4_start:
+[ "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\HeartRateHelpers.mc" 6 8 ]
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_6_8_6_54_if_stmt:
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_6_12_6_35_begin:
+        %tmp.1 = lgetv %maxHr;
+        symbol [ maxHr %tmp.1 6 12 17 ];
+        %tmp.2 = 0;
+        %tmp.3 = eq %tmp.1 %tmp.2;
+        bt %tmp.3 @C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_6_8_6_54_if_true;
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_6_26_6_35_false:
+        %tmp.4 = lgetv %maxHr;
+        symbol [ maxHr %tmp.4 6 26 31 ];
+        %tmp.5 = null;
+        %tmp.6 = eq %tmp.4 %tmp.5;
+        push %tmp.6;
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_6_26_6_35_end:
+        %tmp.7 = phi [%tmp.3 @C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_6_12_6_35_begin] [%tmp.6 @C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_6_26_6_35_false] [%tmp.7 @C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_6_26_6_35_end];
+        bf %tmp.7 @C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_6_8_6_54_if_end;
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_6_8_6_54_if_true:
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_6_41_6_54_start:
+[ "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\HeartRateHelpers.mc" 6 43 ]
+        %tmp.8 = "";
+        ret %tmp.8;
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_6_41_6_54_stop:
+        goto @C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_6_8_6_54_if_end;
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_6_8_6_54_if_end:
+[ "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\HeartRateHelpers.mc" 9 8 ]
+        [ "C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_5_51_18_4_start" "C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_5_51_18_4_stop" ]
+        %percentage.1 = local;
+        symbol [ percentage %percentage.1 9 12 22 ];
+        %tmp.9 = lgetv %currentHr;
+        symbol [ currentHr %tmp.9 9 26 35 ];
+        symbol [ toFloat %tmp.10 9 36 43 ];
+        %tmp.10 = getv function %tmp.9 :toFloat;
+        %tmp.11 = invoke %tmp.9 %tmp.10();
+        %tmp.12 = lgetv %maxHr;
+        symbol [ maxHr %tmp.12 9 48 53 ];
+        symbol [ toFloat %tmp.13 9 54 61 ];
+        %tmp.13 = getv function %tmp.12 :toFloat;
+        %tmp.14 = invoke %tmp.12 %tmp.13();
+        %tmp.15 = div %tmp.11 %tmp.14;
+        %tmp.16 = 100;
+        %tmp.17 = mul %tmp.15 %tmp.16;
+        lputv %percentage.1 %tmp.17;
+        symbol [ percentage %percentage.1 9 12 22 ];
+[ "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\HeartRateHelpers.mc" 12 8 ]
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_12_8_17_30_if_stmt:
+        %tmp.18 = lgetv %percentage.1;
+        symbol [ percentage %tmp.18 12 12 22 ];
+        %tmp.19 = 50;
+        %tmp.20 = lt %tmp.18 %tmp.19;
+        bf %tmp.20 @C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_12_8_17_30_if_false;
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_12_8_17_30_if_true:
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_12_29_12_46_start:
+[ "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\HeartRateHelpers.mc" 12 31 ]
+        %tmp.21 = "REST";
+        ret %tmp.21;
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_12_29_12_46_stop:
+        goto @C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_12_8_17_30_if_end;
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_12_8_17_30_if_false:
+[ "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\HeartRateHelpers.mc" 13 13 ]
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_13_13_17_30_if_stmt:
+        %tmp.22 = lgetv %percentage.1;
+        symbol [ percentage %tmp.22 13 17 27 ];
+        %tmp.23 = 60;
+        %tmp.24 = lt %tmp.22 %tmp.23;
+        bf %tmp.24 @C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_13_13_17_30_if_false;
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_13_13_17_30_if_true:
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_13_34_13_51_start:
+[ "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\HeartRateHelpers.mc" 13 36 ]
+        %tmp.25 = "LITE";
+        ret %tmp.25;
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_13_34_13_51_stop:
+        goto @C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_13_13_17_30_if_end;
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_13_13_17_30_if_false:
+[ "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\HeartRateHelpers.mc" 14 13 ]
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_14_13_17_30_if_stmt:
+        %tmp.26 = lgetv %percentage.1;
+        symbol [ percentage %tmp.26 14 17 27 ];
+        %tmp.27 = 70;
+        %tmp.28 = lt %tmp.26 %tmp.27;
+        bf %tmp.28 @C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_14_13_17_30_if_false;
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_14_13_17_30_if_true:
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_14_34_14_51_start:
+[ "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\HeartRateHelpers.mc" 14 36 ]
+        %tmp.29 = "FAT ";
+        ret %tmp.29;
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_14_34_14_51_stop:
+        goto @C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_14_13_17_30_if_end;
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_14_13_17_30_if_false:
+[ "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\HeartRateHelpers.mc" 15 13 ]
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_15_13_17_30_if_stmt:
+        %tmp.30 = lgetv %percentage.1;
+        symbol [ percentage %tmp.30 15 17 27 ];
+        %tmp.31 = 80;
+        %tmp.32 = lt %tmp.30 %tmp.31;
+        bf %tmp.32 @C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_15_13_17_30_if_false;
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_15_13_17_30_if_true:
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_15_34_15_51_start:
+[ "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\HeartRateHelpers.mc" 15 36 ]
+        %tmp.33 = "AERO";
+        ret %tmp.33;
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_15_34_15_51_stop:
+        goto @C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_15_13_17_30_if_end;
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_15_13_17_30_if_false:
+[ "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\HeartRateHelpers.mc" 16 13 ]
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_16_13_17_30_if_stmt:
+        %tmp.34 = lgetv %percentage.1;
+        symbol [ percentage %tmp.34 16 17 27 ];
+        %tmp.35 = 90;
+        %tmp.36 = lt %tmp.34 %tmp.35;
+        bf %tmp.36 @C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_16_13_17_30_if_else_false;
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_16_13_17_30_if_true:
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_16_34_16_51_start:
+[ "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\HeartRateHelpers.mc" 16 36 ]
+        %tmp.37 = "HARD";
+        ret %tmp.37;
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_16_34_16_51_stop:
+        goto @C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_16_13_17_30_if_end;
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_16_13_17_30_if_else_false:
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_17_13_17_30_start:
+[ "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\HeartRateHelpers.mc" 17 15 ]
+        %tmp.38 = "MAX!";
+        ret %tmp.38;
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_17_13_17_30_stop:
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_16_13_17_30_if_end:
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_15_13_17_30_if_end:
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_14_13_17_30_if_end:
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_13_13_17_30_if_end:
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_12_8_17_30_if_end:
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_5_51_18_4_stop:
+    }
+    [ @file = "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\HeartRateHelpers.mc"; @line = 20; @symbol_functiondef = [calculateMaxHrByAge,20,13,32]; ]
+    function calculateMaxHrByAge() {
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_20_35_39_4_start:
+[ "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\HeartRateHelpers.mc" 22 8 ]
+        [ "C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_20_35_39_4_start" "C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_20_35_39_4_stop" ]
+        %profile.1 = local;
+        symbol [ profile %profile.1 22 12 19 ];
+        symbol [ UserProfile %tmp.1 22 22 33 ];
+        %tmp.1 = getm $.Toybox.UserProfile;
+        symbol [ getProfile %tmp.2 22 34 44 ];
+        %tmp.2 = getv function %tmp.1 :getProfile;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %profile.1 %tmp.3;
+        symbol [ profile %profile.1 22 12 19 ];
+[ "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\HeartRateHelpers.mc" 25 8 ]
+        [ "C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_20_35_39_4_start" "C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_20_35_39_4_stop" ]
+        %now.2 = local;
+        symbol [ now %now.2 25 12 15 ];
+        symbol [ Time %tmp.4 25 18 22 ];
+        %tmp.4 = getm $.Toybox.Time;
+        symbol [ now %tmp.5 25 23 26 ];
+        %tmp.5 = getv function %tmp.4 :now;
+        %tmp.6 = invoke %tmp.4 %tmp.5();
+        lputv %now.2 %tmp.6;
+        symbol [ now %now.2 25 12 15 ];
+[ "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\HeartRateHelpers.mc" 26 8 ]
+        [ "C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_20_35_39_4_start" "C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_20_35_39_4_stop" ]
+        %info.3 = local;
+        symbol [ info %info.3 26 12 16 ];
+        symbol [ Time %tmp.7 26 19 23 ];
+        %tmp.7 = getm $.Toybox.Time;
+        symbol [ Gregorian %tmp.8 26 24 33 ];
+        %tmp.8 = getv %tmp.7 :Gregorian;
+        symbol [ info %tmp.9 26 34 38 ];
+        %tmp.9 = getv function %tmp.8 :info;
+        %tmp.10 = lgetv %now.2;
+        symbol [ now %tmp.10 26 39 42 ];
+        symbol [ Time %tmp.11 26 44 48 ];
+        %tmp.11 = getm $.Toybox.Time;
+        symbol [ FORMAT_SHORT %tmp.12 26 49 61 ];
+        %tmp.12 = getv %tmp.11 :FORMAT_SHORT;
+        %tmp.13 = invoke %tmp.8 %tmp.9(%tmp.10, %tmp.12);
+        lputv %info.3 %tmp.13;
+        symbol [ info %info.3 26 12 16 ];
+[ "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\HeartRateHelpers.mc" 27 8 ]
+        [ "C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_20_35_39_4_start" "C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_20_35_39_4_stop" ]
+        %currentYear.4 = local;
+        symbol [ currentYear %currentYear.4 27 12 23 ];
+        %tmp.14 = lgetv %info.3;
+        symbol [ info %tmp.14 27 26 30 ];
+        symbol [ year %tmp.15 27 31 35 ];
+        %tmp.15 = getv %tmp.14 :year;
+        lputv %currentYear.4 %tmp.15;
+        symbol [ currentYear %currentYear.4 27 12 23 ];
+[ "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\HeartRateHelpers.mc" 30 8 ]
+        [ "C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_20_35_39_4_start" "C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_20_35_39_4_stop" ]
+        %age.5 = local;
+        symbol [ age %age.5 30 12 15 ];
+        %tmp.16 = null;
+        lputv %age.5 %tmp.16;
+        symbol [ age %age.5 30 12 15 ];
+[ "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\HeartRateHelpers.mc" 31 8 ]
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_31_8_33_8_if_stmt:
+        %tmp.17 = lgetv %profile.1;
+        symbol [ profile %tmp.17 31 12 19 ];
+        symbol [ birthYear %tmp.18 31 20 29 ];
+        %tmp.18 = getv %tmp.17 :birthYear;
+        %tmp.19 = null;
+        %tmp.20 = ne %tmp.18 %tmp.19;
+        bf %tmp.20 @C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_31_8_33_8_if_end;
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_31_8_33_8_if_true:
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_31_39_33_8_start:
+[ "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\HeartRateHelpers.mc" 32 12 ]
+        %tmp.21 = lgetv %currentYear.4;
+        symbol [ currentYear %tmp.21 32 18 29 ];
+        %tmp.22 = lgetv %profile.1;
+        symbol [ profile %tmp.22 32 32 39 ];
+        symbol [ birthYear %tmp.23 32 40 49 ];
+        %tmp.23 = getv %tmp.22 :birthYear;
+        %tmp.24 = sub %tmp.21 %tmp.23;
+        lputv %age.5 %tmp.24;
+        symbol [ age %age.5 32 12 15 ];
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_31_39_33_8_stop:
+        goto @C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_31_8_33_8_if_end;
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_31_8_33_8_if_end:
+[ "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\HeartRateHelpers.mc" 36 8 ]
+        [ "C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_20_35_39_4_start" "C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_20_35_39_4_stop" ]
+        %maxHr.6 = local;
+        symbol [ maxHr %maxHr.6 36 12 17 ];
+        %tmp.25 = 220;
+        %tmp.26 = lgetv %age.5;
+        symbol [ age %tmp.26 36 26 29 ];
+        %tmp.27 = sub %tmp.25 %tmp.26;
+        lputv %maxHr.6 %tmp.27;
+        symbol [ maxHr %maxHr.6 36 12 17 ];
+[ "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\HeartRateHelpers.mc" 38 8 ]
+        %tmp.28 = lgetv %maxHr.6;
+        symbol [ maxHr %tmp.28 38 15 20 ];
+        ret %tmp.28;
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_HeartRateHelpers_mc_20_35_39_4_stop:
+    }
+}
+[ @file = "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\HeartRateHelpers.mc"; @line = 1; ]
+<init> {
+}

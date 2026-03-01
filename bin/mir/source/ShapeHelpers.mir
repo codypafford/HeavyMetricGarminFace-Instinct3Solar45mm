@@ -1,0 +1,180 @@
+[ @file = "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\ShapeHelpers.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Graphics,1,14,22]; ]
+import Toybox.Graphics;
+[ @file = "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\ShapeHelpers.mc"; @line = 3; @symbol_moduledef = [ShapeHelpers,3,7,19]; ]
+module ShapeHelpers {
+    [ @file = "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\ShapeHelpers.mc"; @line = 3; ]
+    <init> {
+    }
+    [ @file = "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\ShapeHelpers.mc"; @line = 4; @symbol_functiondef = [drawRunner,4,13,23]; @symbol_param<0> = [dc,4,24,26]; @symbol_param<1> = [x,4,28,29]; @symbol_param<2> = [y,4,31,32]; ]
+    function drawRunner(dc, x, y) {
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_ShapeHelpers_mc_4_34_22_4_start:
+[ "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\ShapeHelpers.mc" 5 8 ]
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 5 8 10 ];
+        symbol [ setColor %tmp.2 5 11 19 ];
+        %tmp.2 = getv function %tmp.1 :setColor;
+        symbol [ Graphics %tmp.3 5 20 28 ];
+        %tmp.3 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.4 5 29 40 ];
+        %tmp.4 = getv %tmp.3 :COLOR_WHITE;
+        symbol [ Graphics %tmp.5 5 42 50 ];
+        %tmp.5 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.6 5 51 68 ];
+        %tmp.6 = getv %tmp.5 :COLOR_TRANSPARENT;
+        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
+[ "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\ShapeHelpers.mc" 6 8 ]
+        %tmp.7 = lgetv %dc;
+        symbol [ dc %tmp.7 6 8 10 ];
+        symbol [ setPenWidth %tmp.8 6 11 22 ];
+        %tmp.8 = getv function %tmp.7 :setPenWidth;
+        %tmp.9 = 1;
+        invoke %tmp.7 %tmp.8(%tmp.9);
+[ "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\ShapeHelpers.mc" 9 8 ]
+        %tmp.10 = lgetv %dc;
+        symbol [ dc %tmp.10 9 8 10 ];
+        symbol [ drawCircle %tmp.11 9 11 21 ];
+        %tmp.11 = getv function %tmp.10 :drawCircle;
+        %tmp.12 = lgetv %x;
+        symbol [ x %tmp.12 9 22 23 ];
+        %tmp.13 = lgetv %y;
+        symbol [ y %tmp.13 9 25 26 ];
+        %tmp.14 = 8;
+        %tmp.15 = sub %tmp.13 %tmp.14;
+        %tmp.16 = 2;
+        invoke %tmp.10 %tmp.11(%tmp.12, %tmp.15, %tmp.16);
+[ "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\ShapeHelpers.mc" 12 8 ]
+        %tmp.17 = lgetv %dc;
+        symbol [ dc %tmp.17 12 8 10 ];
+        symbol [ drawLine %tmp.18 12 11 19 ];
+        %tmp.18 = getv function %tmp.17 :drawLine;
+        %tmp.19 = lgetv %x;
+        symbol [ x %tmp.19 12 20 21 ];
+        %tmp.20 = lgetv %y;
+        symbol [ y %tmp.20 12 23 24 ];
+        %tmp.21 = 6;
+        %tmp.22 = sub %tmp.20 %tmp.21;
+        %tmp.23 = lgetv %x;
+        symbol [ x %tmp.23 12 30 31 ];
+        %tmp.24 = 2;
+        %tmp.25 = add %tmp.23 %tmp.24;
+        %tmp.26 = lgetv %y;
+        symbol [ y %tmp.26 12 37 38 ];
+        %tmp.27 = 1;
+        %tmp.28 = sub %tmp.26 %tmp.27;
+        invoke %tmp.17 %tmp.18(%tmp.19, %tmp.22, %tmp.25, %tmp.28);
+[ "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\ShapeHelpers.mc" 15 8 ]
+        %tmp.29 = lgetv %dc;
+        symbol [ dc %tmp.29 15 8 10 ];
+        symbol [ drawLine %tmp.30 15 11 19 ];
+        %tmp.30 = getv function %tmp.29 :drawLine;
+        %tmp.31 = lgetv %x;
+        symbol [ x %tmp.31 15 20 21 ];
+        %tmp.32 = 2;
+        %tmp.33 = add %tmp.31 %tmp.32;
+        %tmp.34 = lgetv %y;
+        symbol [ y %tmp.34 15 27 28 ];
+        %tmp.35 = 5;
+        %tmp.36 = sub %tmp.34 %tmp.35;
+        %tmp.37 = lgetv %x;
+        symbol [ x %tmp.37 15 34 35 ];
+        %tmp.38 = 5;
+        %tmp.39 = add %tmp.37 %tmp.38;
+        %tmp.40 = lgetv %y;
+        symbol [ y %tmp.40 15 41 42 ];
+        %tmp.41 = 3;
+        %tmp.42 = sub %tmp.40 %tmp.41;
+        invoke %tmp.29 %tmp.30(%tmp.33, %tmp.36, %tmp.39, %tmp.42);
+[ "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\ShapeHelpers.mc" 16 8 ]
+        %tmp.43 = lgetv %dc;
+        symbol [ dc %tmp.43 16 8 10 ];
+        symbol [ drawLine %tmp.44 16 11 19 ];
+        %tmp.44 = getv function %tmp.43 :drawLine;
+        %tmp.45 = lgetv %x;
+        symbol [ x %tmp.45 16 20 21 ];
+        %tmp.46 = 2;
+        %tmp.47 = add %tmp.45 %tmp.46;
+        %tmp.48 = lgetv %y;
+        symbol [ y %tmp.48 16 27 28 ];
+        %tmp.49 = 5;
+        %tmp.50 = sub %tmp.48 %tmp.49;
+        %tmp.51 = lgetv %x;
+        symbol [ x %tmp.51 16 34 35 ];
+        %tmp.52 = 2;
+        %tmp.53 = sub %tmp.51 %tmp.52;
+        %tmp.54 = lgetv %y;
+        symbol [ y %tmp.54 16 41 42 ];
+        %tmp.55 = 2;
+        %tmp.56 = sub %tmp.54 %tmp.55;
+        invoke %tmp.43 %tmp.44(%tmp.47, %tmp.50, %tmp.53, %tmp.56);
+[ "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\ShapeHelpers.mc" 19 8 ]
+        %tmp.57 = lgetv %dc;
+        symbol [ dc %tmp.57 19 8 10 ];
+        symbol [ drawLine %tmp.58 19 11 19 ];
+        %tmp.58 = getv function %tmp.57 :drawLine;
+        %tmp.59 = lgetv %x;
+        symbol [ x %tmp.59 19 20 21 ];
+        %tmp.60 = 2;
+        %tmp.61 = add %tmp.59 %tmp.60;
+        %tmp.62 = lgetv %y;
+        symbol [ y %tmp.62 19 27 28 ];
+        %tmp.63 = 1;
+        %tmp.64 = sub %tmp.62 %tmp.63;
+        %tmp.65 = lgetv %x;
+        symbol [ x %tmp.65 19 34 35 ];
+        %tmp.66 = 5;
+        %tmp.67 = add %tmp.65 %tmp.66;
+        %tmp.68 = lgetv %y;
+        symbol [ y %tmp.68 19 41 42 ];
+        %tmp.69 = 3;
+        %tmp.70 = add %tmp.68 %tmp.69;
+        invoke %tmp.57 %tmp.58(%tmp.61, %tmp.64, %tmp.67, %tmp.70);
+[ "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\ShapeHelpers.mc" 20 8 ]
+        %tmp.71 = lgetv %dc;
+        symbol [ dc %tmp.71 20 8 10 ];
+        symbol [ drawLine %tmp.72 20 11 19 ];
+        %tmp.72 = getv function %tmp.71 :drawLine;
+        %tmp.73 = lgetv %x;
+        symbol [ x %tmp.73 20 20 21 ];
+        %tmp.74 = 2;
+        %tmp.75 = add %tmp.73 %tmp.74;
+        %tmp.76 = lgetv %y;
+        symbol [ y %tmp.76 20 27 28 ];
+        %tmp.77 = 1;
+        %tmp.78 = sub %tmp.76 %tmp.77;
+        %tmp.79 = lgetv %x;
+        symbol [ x %tmp.79 20 34 35 ];
+        %tmp.80 = 2;
+        %tmp.81 = sub %tmp.79 %tmp.80;
+        %tmp.82 = lgetv %y;
+        symbol [ y %tmp.82 20 41 42 ];
+        %tmp.83 = 1;
+        %tmp.84 = add %tmp.82 %tmp.83;
+        invoke %tmp.71 %tmp.72(%tmp.75, %tmp.78, %tmp.81, %tmp.84);
+[ "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\ShapeHelpers.mc" 21 8 ]
+        %tmp.85 = lgetv %dc;
+        symbol [ dc %tmp.85 21 8 10 ];
+        symbol [ drawLine %tmp.86 21 11 19 ];
+        %tmp.86 = getv function %tmp.85 :drawLine;
+        %tmp.87 = lgetv %x;
+        symbol [ x %tmp.87 21 20 21 ];
+        %tmp.88 = 2;
+        %tmp.89 = sub %tmp.87 %tmp.88;
+        %tmp.90 = lgetv %y;
+        symbol [ y %tmp.90 21 27 28 ];
+        %tmp.91 = 1;
+        %tmp.92 = add %tmp.90 %tmp.91;
+        %tmp.93 = lgetv %x;
+        symbol [ x %tmp.93 21 34 35 ];
+        %tmp.94 = 1;
+        %tmp.95 = add %tmp.93 %tmp.94;
+        %tmp.96 = lgetv %y;
+        symbol [ y %tmp.96 21 41 42 ];
+        %tmp.97 = 4;
+        %tmp.98 = add %tmp.96 %tmp.97;
+        invoke %tmp.85 %tmp.86(%tmp.89, %tmp.92, %tmp.95, %tmp.98);
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_ShapeHelpers_mc_4_34_22_4_stop:
+    }
+}
+[ @file = "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\ShapeHelpers.mc"; @line = 1; ]
+<init> {
+}

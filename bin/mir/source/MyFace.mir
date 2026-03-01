@@ -1,0 +1,64 @@
+[ @file = "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\MyFace.mc"; @line = 1; @symbol_usingdef<0> = [Toybox,1,6,12]; @symbol_usingdef<1> = [WatchUi,1,13,20]; @symbol_usingAlias = [WatchUi,1,24,31]; ]
+using Toybox.WatchUi as :WatchUi;
+[ @file = "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\MyFace.mc"; @line = 3; @symbol_classdef = [MyWatchFace,3,6,17]; @symbol_extends<0> = [WatchUi,3,26,33]; @symbol_extends<1> = [WatchFace,3,34,43]; ]
+class MyWatchFace extends WatchUi.WatchFace {
+    [ @file = "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\MyFace.mc"; @line = 3; ]
+    <init> {
+    }
+    [ @file = "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\MyFace.mc"; @line = 3; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\MyFace.mc"; @line = 4; @symbol_functiondef = [initialize,4,13,23]; ]
+    function initialize() as Void {
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_MyFace_mc_4_26_6_4_start:
+[ "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\MyFace.mc" 5 8 ]
+        symbol [ WatchUi %tmp.1 5 8 15 ];
+        %tmp.1 = getm $.Toybox.WatchUi;
+        symbol [ WatchFace %tmp.2 5 16 25 ];
+        %tmp.2 = getv %tmp.1 :WatchFace;
+        symbol [ initialize %tmp.3 5 26 36 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_MyFace_mc_4_26_6_4_stop:
+    }
+    [ @file = "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\MyFace.mc"; @line = 8; @symbol_functiondef = [onUpdate,8,13,21]; @symbol_param<0> = [dc,8,22,24]; ]
+    function onUpdate(dc) {
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_MyFace_mc_8_26_11_4_start:
+[ "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\MyFace.mc" 9 8 ]
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 9 8 10 ];
+        symbol [ clear %tmp.2 9 11 16 ];
+        %tmp.2 = getv function %tmp.1 :clear;
+        invoke %tmp.1 %tmp.2();
+[ "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\MyFace.mc" 10 8 ]
+        %tmp.3 = lgetv %dc;
+        symbol [ dc %tmp.3 10 8 10 ];
+        symbol [ drawText %tmp.4 10 11 19 ];
+        %tmp.4 = getv function %tmp.3 :drawText;
+        %tmp.5 = lgetv %dc;
+        symbol [ dc %tmp.5 10 20 22 ];
+        symbol [ getWidth %tmp.6 10 23 31 ];
+        %tmp.6 = getv function %tmp.5 :getWidth;
+        %tmp.7 = invoke %tmp.5 %tmp.6();
+        %tmp.8 = 2;
+        %tmp.9 = div %tmp.7 %tmp.8;
+        %tmp.10 = lgetv %dc;
+        symbol [ dc %tmp.10 10 37 39 ];
+        symbol [ getHeight %tmp.11 10 40 49 ];
+        %tmp.11 = getv function %tmp.10 :getHeight;
+        %tmp.12 = invoke %tmp.10 %tmp.11();
+        %tmp.13 = 2;
+        %tmp.14 = div %tmp.12 %tmp.13;
+        symbol [ WatchUi %tmp.15 10 55 62 ];
+        %tmp.15 = getm $.Toybox.WatchUi;
+        symbol [ FONT_MEDIUM %tmp.16 10 63 74 ];
+        %tmp.16 = getv %tmp.15 :FONT_MEDIUM;
+        %tmp.17 = "Hello";
+        invoke %tmp.3 %tmp.4(%tmp.9, %tmp.14, %tmp.16, %tmp.17);
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_MyFace_mc_8_26_11_4_stop:
+    }
+}
+[ @file = "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\MyFace.mc"; @line = 1; ]
+<init> {
+}

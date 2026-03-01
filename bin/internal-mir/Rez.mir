@@ -1,0 +1,1530 @@
+[ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [WatchUi,2,13,20]; ]
+using Toybox.WatchUi;
+[ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Graphics,4,13,21]; ]
+using Toybox.Graphics;
+[ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [Graphics,5,13,21]; @symbol_usingAlias = [Gfx,5,25,28]; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 7; @symbol_moduledef = [Rez,7,7,10]; ]
+module Rez {
+    [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 8; @symbol_moduledef = [Drawables,8,11,20]; ]
+    module Drawables {
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; @symbol_vardef = [launcher,9,27,35]; @symbol_type<0> = [ResourceId,9,39,49]; ]
+        var launcher as ResourceId;
+    }
+    [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 12; @symbol_moduledef = [Strings,12,11,18]; ]
+    module Strings {
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 12; ]
+        <init> {
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 13; @position = 27; initialized = true; @symbol_vardef = [AppName,13,27,34]; @symbol_type<0> = [ResourceId,13,38,48]; ]
+        var AppName as ResourceId;
+    }
+    [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 16; @symbol_moduledef = [Styles,16,11,17]; ]
+    module Styles {
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 16; ]
+        <init> {
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 17; @symbol_moduledef = [prompt_font_enhanced_readability__body_with_title,17,15,64]; ]
+        module prompt_font_enhanced_readability__body_with_title {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 17; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 18; @position = 18; @symbol_constdef = [exclude,18,18,25]; @symbol_type<0> = [Boolean,18,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 21; @symbol_moduledef = [system_size__menu_header,21,15,39]; ]
+        module system_size__menu_header {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 21; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 22; @position = 18; @symbol_constdef = [width,22,18,23]; @symbol_type<0> = [Number,22,27,33]; ]
+            const width as Number = 175;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 23; @position = 18; @symbol_constdef = [height,23,18,24]; @symbol_type<0> = [Number,23,28,34]; ]
+            const height as Number = 62;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 26; @symbol_moduledef = [system_loc__hint_button_left_bottom,26,15,50]; ]
+        module system_loc__hint_button_left_bottom {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 26; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 27; @position = 18; @symbol_constdef = [exclude,27,18,25]; @symbol_type<0> = [Boolean,27,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 30; @symbol_moduledef = [prompt_font_enhanced_readability__body_no_title,30,15,62]; ]
+        module prompt_font_enhanced_readability__body_no_title {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 30; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 31; @position = 18; @symbol_constdef = [exclude,31,18,25]; @symbol_type<0> = [Boolean,31,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 34; @symbol_moduledef = [prompt_loc__body_no_title,34,15,40]; ]
+        module prompt_loc__body_no_title {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 34; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 35; @position = 18; @symbol_constdef = [x,35,18,19]; @symbol_type<0> = [Number,35,23,29]; ]
+            const x as Number = 5;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 36; @position = 18; @symbol_constdef = [y,36,18,19]; @symbol_type<0> = [Number,36,23,29]; ]
+            const y as Number = 77;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 39; @symbol_moduledef = [system_icon_dark__about,39,15,38]; ]
+        module system_icon_dark__about {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 39; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 40; @position = 18; @symbol_constdef = [filename,40,18,26]; @symbol_type<0> = [String,40,30,36]; ]
+            const filename as String = "C:\\Users\\codyp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_dark__about.svg";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 41; @position = 18; @symbol_constdef = [disableTransparency,41,18,37]; @symbol_type<0> = [Boolean,41,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 42; @position = 18; @symbol_constdef = [dithering,42,18,27]; @symbol_type<0> = [String,42,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 43; @position = 18; @symbol_constdef = [automaticPalette,43,18,34]; @symbol_type<0> = [Boolean,43,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 46; @symbol_moduledef = [system_icon_light__question,46,15,42]; ]
+        module system_icon_light__question {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 46; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 47; @position = 18; @symbol_constdef = [filename,47,18,26]; @symbol_type<0> = [String,47,30,36]; ]
+            const filename as String = "C:\\Users\\codyp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_light__question.svg";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 48; @position = 18; @symbol_constdef = [disableTransparency,48,18,37]; @symbol_type<0> = [Boolean,48,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 49; @position = 18; @symbol_constdef = [dithering,49,18,27]; @symbol_type<0> = [String,49,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 50; @position = 18; @symbol_constdef = [automaticPalette,50,18,34]; @symbol_type<0> = [Boolean,50,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 53; @symbol_moduledef = [system_loc__hint_button_left_top,53,15,47]; ]
+        module system_loc__hint_button_left_top {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 53; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 54; @position = 18; @symbol_constdef = [exclude,54,18,25]; @symbol_type<0> = [Boolean,54,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 57; @symbol_moduledef = [prompt_font__title,57,15,33]; ]
+        module prompt_font__title {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 57; ]
+            <init> {
+[ "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen" 58 18 ]
+                symbol [ Graphics %tmp.1 58 34 42 ];
+                %tmp.1 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_RIGHT %tmp.2 58 43 61 ];
+                %tmp.2 = getv %tmp.1 :TEXT_JUSTIFY_RIGHT;
+                symbol [ Graphics %tmp.3 58 62 70 ];
+                %tmp.3 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.4 58 71 91 ];
+                %tmp.4 = getv %tmp.3 :TEXT_JUSTIFY_VCENTER;
+                %tmp.5 = bitor %tmp.2 %tmp.4;
+                putv self :justification %tmp.5;
+[ "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen" 59 18 ]
+                symbol [ Graphics %tmp.6 59 25 33 ];
+                %tmp.6 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.7 59 34 43 ];
+                %tmp.7 = getv %tmp.6 :FONT_TINY;
+                putv self :font %tmp.7;
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 58; @position = 18; @symbol_constdef = [justification,58,18,31]; ]
+            const justification;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 59; @position = 18; @symbol_constdef = [font,59,18,22]; ]
+            const font;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 62; @symbol_moduledef = [system_icon_dark__discard,62,15,40]; ]
+        module system_icon_dark__discard {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 62; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 63; @position = 18; @symbol_constdef = [filename,63,18,26]; @symbol_type<0> = [String,63,30,36]; ]
+            const filename as String = "C:\\Users\\codyp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_dark__discard.svg";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 64; @position = 18; @symbol_constdef = [disableTransparency,64,18,37]; @symbol_type<0> = [Boolean,64,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 65; @position = 18; @symbol_constdef = [dithering,65,18,27]; @symbol_type<0> = [String,65,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 66; @position = 18; @symbol_constdef = [automaticPalette,66,18,34]; @symbol_type<0> = [Boolean,66,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 69; @symbol_moduledef = [system_size__menu_item,69,15,37]; ]
+        module system_size__menu_item {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 69; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 70; @position = 18; @symbol_constdef = [width,70,18,23]; @symbol_type<0> = [Number,70,27,33]; ]
+            const width as Number = 175;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 71; @position = 18; @symbol_constdef = [height,71,18,24]; @symbol_type<0> = [Number,71,28,34]; ]
+            const height as Number = 58;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 74; @symbol_moduledef = [system_color_dark__text,74,15,38]; ]
+        module system_color_dark__text {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 74; ]
+            <init> {
+[ "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen" 76 18 ]
+                symbol [ Graphics %tmp.8 76 31 39 ];
+                %tmp.8 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.9 76 40 57 ];
+                %tmp.9 = getv %tmp.8 :COLOR_TRANSPARENT;
+                putv self :background %tmp.9;
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 75; @position = 18; @symbol_constdef = [color,75,18,23]; @symbol_type<0> = [Number,75,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 76; @position = 18; @symbol_constdef = [background,76,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 79; @symbol_moduledef = [system_icon_destructive__discard,79,15,47]; ]
+        module system_icon_destructive__discard {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 79; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 80; @position = 18; @symbol_constdef = [filename,80,18,26]; @symbol_type<0> = [String,80,30,36]; ]
+            const filename as String = "C:\\Users\\codyp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_dark__discard.svg";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 81; @position = 18; @symbol_constdef = [disableTransparency,81,18,37]; @symbol_type<0> = [Boolean,81,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 82; @position = 18; @symbol_constdef = [dithering,82,18,27]; @symbol_type<0> = [String,82,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 83; @position = 18; @symbol_constdef = [automaticPalette,83,18,34]; @symbol_type<0> = [Boolean,83,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 86; @symbol_moduledef = [system_icon_dark__hint_action_menu,86,15,49]; ]
+        module system_icon_dark__hint_action_menu {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 86; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 87; @position = 18; @symbol_constdef = [filename,87,18,26]; @symbol_type<0> = [String,87,30,36]; ]
+            const filename as String = "C:\\Users\\codyp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_dark__hint_button_right_top.svg";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 88; @position = 18; @symbol_constdef = [disableTransparency,88,18,37]; @symbol_type<0> = [Boolean,88,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 89; @position = 18; @symbol_constdef = [dithering,89,18,27]; @symbol_type<0> = [String,89,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 90; @position = 18; @symbol_constdef = [automaticPalette,90,18,34]; @symbol_type<0> = [Boolean,90,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 93; @symbol_moduledef = [prompt_size__title,93,15,33]; ]
+        module prompt_size__title {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 93; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 94; @position = 18; @symbol_constdef = [width,94,18,23]; @symbol_type<0> = [Number,94,27,33]; ]
+            const width as Number = 67;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 95; @position = 18; @symbol_constdef = [height,95,18,24]; @symbol_type<0> = [Number,95,28,34]; ]
+            const height as Number = 60;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 98; @symbol_moduledef = [confirmation_font__body,98,15,38]; ]
+        module confirmation_font__body {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 98; ]
+            <init> {
+[ "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen" 99 18 ]
+                symbol [ Graphics %tmp.10 99 34 42 ];
+                %tmp.10 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.11 99 43 62 ];
+                %tmp.11 = getv %tmp.10 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.11;
+[ "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen" 100 18 ]
+                symbol [ Graphics %tmp.12 100 25 33 ];
+                %tmp.12 = getm $.Toybox.Graphics;
+                symbol [ FONT_XTINY %tmp.13 100 34 44 ];
+                %tmp.13 = getv %tmp.12 :FONT_XTINY;
+                putv self :font %tmp.13;
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 99; @position = 18; @symbol_constdef = [justification,99,18,31]; ]
+            const justification;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 100; @position = 18; @symbol_constdef = [font,100,18,22]; ]
+            const font;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 103; @symbol_moduledef = [system_color_dark__background,103,15,44]; ]
+        module system_color_dark__background {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 103; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 104; @position = 18; @symbol_constdef = [color,104,18,23]; @symbol_type<0> = [Number,104,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 105; @position = 18; @symbol_constdef = [background,105,18,28]; @symbol_type<0> = [Number,105,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 108; @symbol_moduledef = [system_icon_destructive__hint_button_left_top,108,15,60]; ]
+        module system_icon_destructive__hint_button_left_top {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 108; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 109; @position = 18; @symbol_constdef = [exclude,109,18,25]; @symbol_type<0> = [Boolean,109,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 112; @symbol_moduledef = [system_size__launch_icon,112,15,39]; ]
+        module system_size__launch_icon {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 112; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 113; @position = 18; @symbol_constdef = [scaleX,113,18,24]; @symbol_type<0> = [Number,113,28,34]; ]
+            const scaleX as Number = 62;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 114; @position = 18; @symbol_constdef = [scaleY,114,18,24]; @symbol_type<0> = [Number,114,28,34]; ]
+            const scaleY as Number = 62;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 115; @position = 18; @symbol_constdef = [scaleRelativeTo,115,18,33]; @symbol_type<0> = [String,115,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 118; @symbol_moduledef = [confirmation_input__confirm,118,15,42]; ]
+        module confirmation_input__confirm {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 118; ]
+            <init> {
+[ "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen" 119 18 ]
+                symbol [ WatchUi %tmp.14 119 27 34 ];
+                %tmp.14 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.15 119 35 44 ];
+                %tmp.15 = getv %tmp.14 :KEY_ENTER;
+                putv self :button %tmp.15;
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 119; @position = 18; @symbol_constdef = [button,119,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 122; @symbol_moduledef = [prompt_font__body_with_title,122,15,43]; ]
+        module prompt_font__body_with_title {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 122; ]
+            <init> {
+[ "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen" 123 18 ]
+                symbol [ Graphics %tmp.16 123 34 42 ];
+                %tmp.16 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.17 123 43 62 ];
+                %tmp.17 = getv %tmp.16 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.17;
+[ "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen" 124 18 ]
+                symbol [ Graphics %tmp.18 124 25 33 ];
+                %tmp.18 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.19 124 34 43 ];
+                %tmp.19 = getv %tmp.18 :FONT_TINY;
+                putv self :font %tmp.19;
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 123; @position = 18; @symbol_constdef = [justification,123,18,31]; ]
+            const justification;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 124; @position = 18; @symbol_constdef = [font,124,18,22]; ]
+            const font;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 127; @symbol_moduledef = [confirmation_loc__body,127,15,37]; ]
+        module confirmation_loc__body {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 127; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 128; @position = 18; @symbol_constdef = [x,128,18,19]; @symbol_type<0> = [Number,128,23,29]; ]
+            const x as Number = 2;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 129; @position = 18; @symbol_constdef = [y,129,18,19]; @symbol_type<0> = [Number,129,23,29]; ]
+            const y as Number = 81;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 132; @symbol_moduledef = [system_icon_destructive__hint_button_left_bottom,132,15,63]; ]
+        module system_icon_destructive__hint_button_left_bottom {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 132; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 133; @position = 18; @symbol_constdef = [exclude,133,18,25]; @symbol_type<0> = [Boolean,133,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 136; @symbol_moduledef = [prompt_color_dark__background,136,15,44]; ]
+        module prompt_color_dark__background {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 136; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 137; @position = 18; @symbol_constdef = [background,137,18,28]; @symbol_type<0> = [Number,137,32,38]; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 140; @symbol_moduledef = [system_icon_destructive__hint_action_menu,140,15,56]; ]
+        module system_icon_destructive__hint_action_menu {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 140; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 141; @position = 18; @symbol_constdef = [filename,141,18,26]; @symbol_type<0> = [String,141,30,36]; ]
+            const filename as String = "C:\\Users\\codyp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 142; @position = 18; @symbol_constdef = [disableTransparency,142,18,37]; @symbol_type<0> = [Boolean,142,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 143; @position = 18; @symbol_constdef = [dithering,143,18,27]; @symbol_type<0> = [String,143,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 144; @position = 18; @symbol_constdef = [automaticPalette,144,18,34]; @symbol_type<0> = [Boolean,144,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 147; @symbol_moduledef = [system_loc__hint_action_menu,147,15,43]; ]
+        module system_loc__hint_action_menu {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 147; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 148; @position = 18; @symbol_constdef = [x,148,18,19]; @symbol_type<0> = [Number,148,23,29]; ]
+            const x as Number = 166;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 149; @position = 18; @symbol_constdef = [y,149,18,19]; @symbol_type<0> = [Number,149,23,29]; ]
+            const y as Number = 31;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 150; @position = 18; @symbol_constdef = [horizontalJustification,150,18,41]; @symbol_type<0> = [String,150,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 151; @position = 18; @symbol_constdef = [verticalJustification,151,18,39]; @symbol_type<0> = [String,151,43,49]; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 154; @symbol_moduledef = [confirmation_icon__hint_confirm,154,15,46]; ]
+        module confirmation_icon__hint_confirm {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 154; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 155; @position = 18; @symbol_constdef = [filename,155,18,26]; @symbol_type<0> = [String,155,30,36]; ]
+            const filename as String = "C:\\Users\\codyp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\confirmation_icon__hint_completion.svg";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 156; @position = 18; @symbol_constdef = [disableTransparency,156,18,37]; @symbol_type<0> = [Boolean,156,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 157; @position = 18; @symbol_constdef = [dithering,157,18,27]; @symbol_type<0> = [String,157,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 158; @position = 18; @symbol_constdef = [automaticPalette,158,18,34]; @symbol_type<0> = [Boolean,158,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 161; @symbol_moduledef = [system_loc__hint_button_left_middle,161,15,50]; ]
+        module system_loc__hint_button_left_middle {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 161; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 162; @position = 18; @symbol_constdef = [exclude,162,18,25]; @symbol_type<0> = [Boolean,162,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 165; @symbol_moduledef = [prompt_size__body_no_title,165,15,41]; ]
+        module prompt_size__body_no_title {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 165; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 166; @position = 18; @symbol_constdef = [width,166,18,23]; @symbol_type<0> = [Number,166,27,33]; ]
+            const width as Number = 166;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 167; @position = 18; @symbol_constdef = [height,167,18,24]; @symbol_type<0> = [Number,167,28,34]; ]
+            const height as Number = 99;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 170; @symbol_moduledef = [system_icon_light__hint_button_left_top,170,15,54]; ]
+        module system_icon_light__hint_button_left_top {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 170; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 171; @position = 18; @symbol_constdef = [exclude,171,18,25]; @symbol_type<0> = [Boolean,171,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 174; @symbol_moduledef = [prompt_color_light__background,174,15,45]; ]
+        module prompt_color_light__background {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 174; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 175; @position = 18; @symbol_constdef = [background,175,18,28]; @symbol_type<0> = [Number,175,32,38]; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 178; @symbol_moduledef = [confirmation_input__delete,178,15,41]; ]
+        module confirmation_input__delete {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 178; ]
+            <init> {
+[ "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen" 179 18 ]
+                symbol [ WatchUi %tmp.20 179 27 34 ];
+                %tmp.20 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.21 179 35 44 ];
+                %tmp.21 = getv %tmp.20 :KEY_ENTER;
+                putv self :button %tmp.21;
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 179; @position = 18; @symbol_constdef = [button,179,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 182; @symbol_moduledef = [system_icon_dark__hint_button_left_top,182,15,53]; ]
+        module system_icon_dark__hint_button_left_top {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 182; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 183; @position = 18; @symbol_constdef = [exclude,183,18,25]; @symbol_type<0> = [Boolean,183,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 186; @symbol_moduledef = [system_input__action_menu,186,15,40]; ]
+        module system_input__action_menu {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 186; ]
+            <init> {
+[ "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen" 187 18 ]
+                symbol [ WatchUi %tmp.22 187 27 34 ];
+                %tmp.22 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.23 187 35 44 ];
+                %tmp.23 = getv %tmp.22 :KEY_ENTER;
+                putv self :button %tmp.23;
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 187; @position = 18; @symbol_constdef = [button,187,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 190; @symbol_moduledef = [system_icon_light__save,190,15,38]; ]
+        module system_icon_light__save {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 190; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 191; @position = 18; @symbol_constdef = [filename,191,18,26]; @symbol_type<0> = [String,191,30,36]; ]
+            const filename as String = "C:\\Users\\codyp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_light__save.svg";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 192; @position = 18; @symbol_constdef = [disableTransparency,192,18,37]; @symbol_type<0> = [Boolean,192,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 193; @position = 18; @symbol_constdef = [dithering,193,18,27]; @symbol_type<0> = [String,193,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 194; @position = 18; @symbol_constdef = [automaticPalette,194,18,34]; @symbol_type<0> = [Boolean,194,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 197; @symbol_moduledef = [prompt_color_light__body,197,15,39]; ]
+        module prompt_color_light__body {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 197; ]
+            <init> {
+[ "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen" 199 18 ]
+                symbol [ Graphics %tmp.24 199 31 39 ];
+                %tmp.24 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.25 199 40 57 ];
+                %tmp.25 = getv %tmp.24 :COLOR_TRANSPARENT;
+                putv self :background %tmp.25;
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 198; @position = 18; @symbol_constdef = [color,198,18,23]; @symbol_type<0> = [Number,198,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 199; @position = 18; @symbol_constdef = [background,199,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 202; @symbol_moduledef = [system_loc__subwindow,202,15,36]; ]
+        module system_loc__subwindow {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 202; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 203; @position = 18; @symbol_constdef = [x,203,18,19]; @symbol_type<0> = [Number,203,23,29]; ]
+            const x as Number = 114;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 204; @position = 18; @symbol_constdef = [y,204,18,19]; @symbol_type<0> = [Number,204,23,29]; ]
+            const y as Number = 0;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 207; @symbol_moduledef = [system_icon_light__warning,207,15,41]; ]
+        module system_icon_light__warning {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 207; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 208; @position = 18; @symbol_constdef = [filename,208,18,26]; @symbol_type<0> = [String,208,30,36]; ]
+            const filename as String = "C:\\Users\\codyp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_light__warning.svg";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 209; @position = 18; @symbol_constdef = [disableTransparency,209,18,37]; @symbol_type<0> = [Boolean,209,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 210; @position = 18; @symbol_constdef = [dithering,210,18,27]; @symbol_type<0> = [String,210,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 211; @position = 18; @symbol_constdef = [automaticPalette,211,18,34]; @symbol_type<0> = [Boolean,211,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 214; @symbol_moduledef = [confirmation_color_light__body,214,15,45]; ]
+        module confirmation_color_light__body {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 214; ]
+            <init> {
+[ "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen" 216 18 ]
+                symbol [ Graphics %tmp.26 216 31 39 ];
+                %tmp.26 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.27 216 40 57 ];
+                %tmp.27 = getv %tmp.26 :COLOR_TRANSPARENT;
+                putv self :background %tmp.27;
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 215; @position = 18; @symbol_constdef = [color,215,18,23]; @symbol_type<0> = [Number,215,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 216; @position = 18; @symbol_constdef = [background,216,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 219; @symbol_moduledef = [confirmation_icon_light__hint_keep,219,15,49]; ]
+        module confirmation_icon_light__hint_keep {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 219; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 220; @position = 18; @symbol_constdef = [filename,220,18,26]; @symbol_type<0> = [String,220,30,36]; ]
+            const filename as String = "C:\\Users\\codyp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\confirmation_icon__hint_keep.svg";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 221; @position = 18; @symbol_constdef = [disableTransparency,221,18,37]; @symbol_type<0> = [Boolean,221,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 222; @position = 18; @symbol_constdef = [dithering,222,18,27]; @symbol_type<0> = [String,222,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 223; @position = 18; @symbol_constdef = [automaticPalette,223,18,34]; @symbol_type<0> = [Boolean,223,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 226; @symbol_moduledef = [activity_color_light__background,226,15,47]; ]
+        module activity_color_light__background {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 226; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 227; @position = 18; @symbol_constdef = [color,227,18,23]; @symbol_type<0> = [Number,227,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 228; @position = 18; @symbol_constdef = [background,228,18,28]; @symbol_type<0> = [Number,228,32,38]; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 231; @symbol_moduledef = [system_icon_positive__hint_button_right_top,231,15,58]; ]
+        module system_icon_positive__hint_button_right_top {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 231; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 232; @position = 18; @symbol_constdef = [filename,232,18,26]; @symbol_type<0> = [String,232,30,36]; ]
+            const filename as String = "C:\\Users\\codyp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_positive__hint_button_right_top.svg";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 233; @position = 18; @symbol_constdef = [disableTransparency,233,18,37]; @symbol_type<0> = [Boolean,233,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 234; @position = 18; @symbol_constdef = [dithering,234,18,27]; @symbol_type<0> = [String,234,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 235; @position = 18; @symbol_constdef = [automaticPalette,235,18,34]; @symbol_type<0> = [Boolean,235,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 238; @symbol_moduledef = [system_size__screen,238,15,34]; ]
+        module system_size__screen {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 238; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 239; @position = 18; @symbol_constdef = [width,239,18,23]; @symbol_type<0> = [Number,239,27,33]; ]
+            const width as Number = 176;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 240; @position = 18; @symbol_constdef = [height,240,18,24]; @symbol_type<0> = [Number,240,28,34]; ]
+            const height as Number = 176;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 243; @symbol_moduledef = [system_icon_destructive__hint_button_right_bottom,243,15,64]; ]
+        module system_icon_destructive__hint_button_right_bottom {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 243; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 244; @position = 18; @symbol_constdef = [exclude,244,18,25]; @symbol_type<0> = [Boolean,244,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 247; @symbol_moduledef = [system_color_light__background,247,15,45]; ]
+        module system_color_light__background {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 247; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 248; @position = 18; @symbol_constdef = [color,248,18,23]; @symbol_type<0> = [Number,248,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 249; @position = 18; @symbol_constdef = [background,249,18,28]; @symbol_type<0> = [Number,249,32,38]; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 252; @symbol_moduledef = [system_icon_destructive__hint_button_right_top,252,15,61]; ]
+        module system_icon_destructive__hint_button_right_top {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 252; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 253; @position = 18; @symbol_constdef = [filename,253,18,26]; @symbol_type<0> = [String,253,30,36]; ]
+            const filename as String = "C:\\Users\\codyp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 254; @position = 18; @symbol_constdef = [disableTransparency,254,18,37]; @symbol_type<0> = [Boolean,254,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 255; @position = 18; @symbol_constdef = [dithering,255,18,27]; @symbol_type<0> = [String,255,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 256; @position = 18; @symbol_constdef = [automaticPalette,256,18,34]; @symbol_type<0> = [Boolean,256,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 259; @symbol_moduledef = [confirmation_loc__hint_confirm,259,15,45]; ]
+        module confirmation_loc__hint_confirm {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 259; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 260; @position = 18; @symbol_constdef = [x,260,18,19]; @symbol_type<0> = [Number,260,23,29]; ]
+            const x as Number = 113;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 261; @position = 18; @symbol_constdef = [y,261,18,19]; @symbol_type<0> = [Number,261,23,29]; ]
+            const y as Number = 1;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 264; @symbol_moduledef = [activity_color_dark__text,264,15,40]; ]
+        module activity_color_dark__text {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 264; ]
+            <init> {
+[ "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen" 266 18 ]
+                symbol [ Graphics %tmp.28 266 31 39 ];
+                %tmp.28 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.29 266 40 57 ];
+                %tmp.29 = getv %tmp.28 :COLOR_TRANSPARENT;
+                putv self :background %tmp.29;
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 265; @position = 18; @symbol_constdef = [color,265,18,23]; @symbol_type<0> = [Number,265,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 266; @position = 18; @symbol_constdef = [background,266,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 269; @symbol_moduledef = [confirmation_input__keep,269,15,39]; ]
+        module confirmation_input__keep {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 269; ]
+            <init> {
+[ "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen" 270 18 ]
+                symbol [ WatchUi %tmp.30 270 27 34 ];
+                %tmp.30 = getm $.Toybox.WatchUi;
+                symbol [ KEY_DOWN %tmp.31 270 35 43 ];
+                %tmp.31 = getv %tmp.30 :KEY_DOWN;
+                putv self :button %tmp.31;
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 270; @position = 18; @symbol_constdef = [button,270,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 273; @symbol_moduledef = [prompt_loc__body_with_title,273,15,42]; ]
+        module prompt_loc__body_with_title {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 273; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 274; @position = 18; @symbol_constdef = [x,274,18,19]; @symbol_type<0> = [Number,274,23,29]; ]
+            const x as Number = 5;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 275; @position = 18; @symbol_constdef = [y,275,18,19]; @symbol_type<0> = [Number,275,23,29]; ]
+            const y as Number = 77;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 278; @symbol_moduledef = [system_icon_dark__search,278,15,39]; ]
+        module system_icon_dark__search {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 278; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 279; @position = 18; @symbol_constdef = [filename,279,18,26]; @symbol_type<0> = [String,279,30,36]; ]
+            const filename as String = "C:\\Users\\codyp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_dark__search.svg";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 280; @position = 18; @symbol_constdef = [disableTransparency,280,18,37]; @symbol_type<0> = [Boolean,280,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 281; @position = 18; @symbol_constdef = [dithering,281,18,27]; @symbol_type<0> = [String,281,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 282; @position = 18; @symbol_constdef = [automaticPalette,282,18,34]; @symbol_type<0> = [Boolean,282,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 285; @symbol_moduledef = [activity_color_light__text,285,15,41]; ]
+        module activity_color_light__text {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 285; ]
+            <init> {
+[ "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen" 287 18 ]
+                symbol [ Graphics %tmp.32 287 31 39 ];
+                %tmp.32 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.33 287 40 57 ];
+                %tmp.33 = getv %tmp.32 :COLOR_TRANSPARENT;
+                putv self :background %tmp.33;
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 286; @position = 18; @symbol_constdef = [color,286,18,23]; @symbol_type<0> = [Number,286,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 287; @position = 18; @symbol_constdef = [background,287,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 290; @symbol_moduledef = [confirmation_icon__hint_keep,290,15,43]; ]
+        module confirmation_icon__hint_keep {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 290; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 291; @position = 18; @symbol_constdef = [filename,291,18,26]; @symbol_type<0> = [String,291,30,36]; ]
+            const filename as String = "C:\\Users\\codyp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\confirmation_icon__hint_keep.svg";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 292; @position = 18; @symbol_constdef = [disableTransparency,292,18,37]; @symbol_type<0> = [Boolean,292,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 293; @position = 18; @symbol_constdef = [dithering,293,18,27]; @symbol_type<0> = [String,293,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 294; @position = 18; @symbol_constdef = [automaticPalette,294,18,34]; @symbol_type<0> = [Boolean,294,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 297; @symbol_moduledef = [system_icon_dark__save,297,15,37]; ]
+        module system_icon_dark__save {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 297; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 298; @position = 18; @symbol_constdef = [filename,298,18,26]; @symbol_type<0> = [String,298,30,36]; ]
+            const filename as String = "C:\\Users\\codyp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_dark__save.svg";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 299; @position = 18; @symbol_constdef = [disableTransparency,299,18,37]; @symbol_type<0> = [Boolean,299,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 300; @position = 18; @symbol_constdef = [dithering,300,18,27]; @symbol_type<0> = [String,300,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 301; @position = 18; @symbol_constdef = [automaticPalette,301,18,34]; @symbol_type<0> = [Boolean,301,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 304; @symbol_moduledef = [system_icon_destructive__hint_button_left_middle,304,15,63]; ]
+        module system_icon_destructive__hint_button_left_middle {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 304; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 305; @position = 18; @symbol_constdef = [exclude,305,18,25]; @symbol_type<0> = [Boolean,305,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 308; @symbol_moduledef = [system_icon_light__search,308,15,40]; ]
+        module system_icon_light__search {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 308; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 309; @position = 18; @symbol_constdef = [filename,309,18,26]; @symbol_type<0> = [String,309,30,36]; ]
+            const filename as String = "C:\\Users\\codyp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_light__search.svg";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 310; @position = 18; @symbol_constdef = [disableTransparency,310,18,37]; @symbol_type<0> = [Boolean,310,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 311; @position = 18; @symbol_constdef = [dithering,311,18,27]; @symbol_type<0> = [String,311,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 312; @position = 18; @symbol_constdef = [automaticPalette,312,18,34]; @symbol_type<0> = [Boolean,312,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 315; @symbol_moduledef = [system_icon_dark__hint_button_left_bottom,315,15,56]; ]
+        module system_icon_dark__hint_button_left_bottom {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 315; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 316; @position = 18; @symbol_constdef = [exclude,316,18,25]; @symbol_type<0> = [Boolean,316,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 319; @symbol_moduledef = [system_icon_positive__hint_button_left_top,319,15,57]; ]
+        module system_icon_positive__hint_button_left_top {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 319; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 320; @position = 18; @symbol_constdef = [exclude,320,18,25]; @symbol_type<0> = [Boolean,320,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 323; @symbol_moduledef = [system_loc__hint_button_right_bottom,323,15,51]; ]
+        module system_loc__hint_button_right_bottom {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 323; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 324; @position = 18; @symbol_constdef = [exclude,324,18,25]; @symbol_type<0> = [Boolean,324,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 327; @symbol_moduledef = [confirmation_icon_dark__hint_reject,327,15,50]; ]
+        module confirmation_icon_dark__hint_reject {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 327; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 328; @position = 18; @symbol_constdef = [filename,328,18,26]; @symbol_type<0> = [String,328,30,36]; ]
+            const filename as String = "C:\\Users\\codyp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\confirmation_icon__hint_reject.svg";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 329; @position = 18; @symbol_constdef = [disableTransparency,329,18,37]; @symbol_type<0> = [Boolean,329,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 330; @position = 18; @symbol_constdef = [dithering,330,18,27]; @symbol_type<0> = [String,330,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 331; @position = 18; @symbol_constdef = [automaticPalette,331,18,34]; @symbol_type<0> = [Boolean,331,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 334; @symbol_moduledef = [confirmation_color_dark__body,334,15,44]; ]
+        module confirmation_color_dark__body {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 334; ]
+            <init> {
+[ "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen" 336 18 ]
+                symbol [ Graphics %tmp.34 336 31 39 ];
+                %tmp.34 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.35 336 40 57 ];
+                %tmp.35 = getv %tmp.34 :COLOR_TRANSPARENT;
+                putv self :background %tmp.35;
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 335; @position = 18; @symbol_constdef = [color,335,18,23]; @symbol_type<0> = [Number,335,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 336; @position = 18; @symbol_constdef = [background,336,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 339; @symbol_moduledef = [confirmation_icon_light__hint_confirm,339,15,52]; ]
+        module confirmation_icon_light__hint_confirm {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 339; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 340; @position = 18; @symbol_constdef = [filename,340,18,26]; @symbol_type<0> = [String,340,30,36]; ]
+            const filename as String = "C:\\Users\\codyp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\confirmation_icon__hint_completion.svg";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 341; @position = 18; @symbol_constdef = [disableTransparency,341,18,37]; @symbol_type<0> = [Boolean,341,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 342; @position = 18; @symbol_constdef = [dithering,342,18,27]; @symbol_type<0> = [String,342,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 343; @position = 18; @symbol_constdef = [automaticPalette,343,18,34]; @symbol_type<0> = [Boolean,343,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 346; @symbol_moduledef = [prompt_color_dark__title,346,15,39]; ]
+        module prompt_color_dark__title {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 346; ]
+            <init> {
+[ "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen" 348 18 ]
+                symbol [ Graphics %tmp.36 348 31 39 ];
+                %tmp.36 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.37 348 40 57 ];
+                %tmp.37 = getv %tmp.36 :COLOR_TRANSPARENT;
+                putv self :background %tmp.37;
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 347; @position = 18; @symbol_constdef = [color,347,18,23]; @symbol_type<0> = [Number,347,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 348; @position = 18; @symbol_constdef = [background,348,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 351; @symbol_moduledef = [system_icon_destructive__cancel,351,15,46]; ]
+        module system_icon_destructive__cancel {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 351; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 352; @position = 18; @symbol_constdef = [filename,352,18,26]; @symbol_type<0> = [String,352,30,36]; ]
+            const filename as String = "C:\\Users\\codyp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_dark__cancel.svg";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 353; @position = 18; @symbol_constdef = [disableTransparency,353,18,37]; @symbol_type<0> = [Boolean,353,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 354; @position = 18; @symbol_constdef = [dithering,354,18,27]; @symbol_type<0> = [String,354,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 355; @position = 18; @symbol_constdef = [automaticPalette,355,18,34]; @symbol_type<0> = [Boolean,355,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 358; @symbol_moduledef = [system_icon_light__hint_button_right_bottom,358,15,58]; ]
+        module system_icon_light__hint_button_right_bottom {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 358; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 359; @position = 18; @symbol_constdef = [exclude,359,18,25]; @symbol_type<0> = [Boolean,359,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 362; @symbol_moduledef = [prompt_loc__title,362,15,32]; ]
+        module prompt_loc__title {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 362; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 363; @position = 18; @symbol_constdef = [x,363,18,19]; @symbol_type<0> = [Number,363,23,29]; ]
+            const x as Number = 25;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 364; @position = 18; @symbol_constdef = [y,364,18,19]; @symbol_type<0> = [Number,364,23,29]; ]
+            const y as Number = 9;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 367; @symbol_moduledef = [confirmation_font_enhanced_readability__body,367,15,59]; ]
+        module confirmation_font_enhanced_readability__body {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 367; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 368; @position = 18; @symbol_constdef = [exclude,368,18,25]; @symbol_type<0> = [Boolean,368,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 371; @symbol_moduledef = [prompt_color_light__title,371,15,40]; ]
+        module prompt_color_light__title {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 371; ]
+            <init> {
+[ "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen" 373 18 ]
+                symbol [ Graphics %tmp.38 373 31 39 ];
+                %tmp.38 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.39 373 40 57 ];
+                %tmp.39 = getv %tmp.38 :COLOR_TRANSPARENT;
+                putv self :background %tmp.39;
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 372; @position = 18; @symbol_constdef = [color,372,18,23]; @symbol_type<0> = [Number,372,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 373; @position = 18; @symbol_constdef = [background,373,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 376; @symbol_moduledef = [system_icon_dark__hint_button_right_top,376,15,54]; ]
+        module system_icon_dark__hint_button_right_top {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 376; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 377; @position = 18; @symbol_constdef = [filename,377,18,26]; @symbol_type<0> = [String,377,30,36]; ]
+            const filename as String = "C:\\Users\\codyp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_dark__hint_button_right_top.svg";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 378; @position = 18; @symbol_constdef = [disableTransparency,378,18,37]; @symbol_type<0> = [Boolean,378,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 379; @position = 18; @symbol_constdef = [dithering,379,18,27]; @symbol_type<0> = [String,379,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 380; @position = 18; @symbol_constdef = [automaticPalette,380,18,34]; @symbol_type<0> = [Boolean,380,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 383; @symbol_moduledef = [system_icon_dark__hint_button_left_middle,383,15,56]; ]
+        module system_icon_dark__hint_button_left_middle {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 383; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 384; @position = 18; @symbol_constdef = [exclude,384,18,25]; @symbol_type<0> = [Boolean,384,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 387; @symbol_moduledef = [confirmation_icon_dark__hint_keep,387,15,48]; ]
+        module confirmation_icon_dark__hint_keep {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 387; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 388; @position = 18; @symbol_constdef = [filename,388,18,26]; @symbol_type<0> = [String,388,30,36]; ]
+            const filename as String = "C:\\Users\\codyp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\confirmation_icon__hint_keep.svg";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 389; @position = 18; @symbol_constdef = [disableTransparency,389,18,37]; @symbol_type<0> = [Boolean,389,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 390; @position = 18; @symbol_constdef = [dithering,390,18,27]; @symbol_type<0> = [String,390,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 391; @position = 18; @symbol_constdef = [automaticPalette,391,18,34]; @symbol_type<0> = [Boolean,391,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 394; @symbol_moduledef = [system_icon_light__cancel,394,15,40]; ]
+        module system_icon_light__cancel {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 394; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 395; @position = 18; @symbol_constdef = [filename,395,18,26]; @symbol_type<0> = [String,395,30,36]; ]
+            const filename as String = "C:\\Users\\codyp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_light__cancel.svg";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 396; @position = 18; @symbol_constdef = [disableTransparency,396,18,37]; @symbol_type<0> = [Boolean,396,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 397; @position = 18; @symbol_constdef = [dithering,397,18,27]; @symbol_type<0> = [String,397,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 398; @position = 18; @symbol_constdef = [automaticPalette,398,18,34]; @symbol_type<0> = [Boolean,398,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 401; @symbol_moduledef = [confirmation_icon_light__hint_reject,401,15,51]; ]
+        module confirmation_icon_light__hint_reject {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 401; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 402; @position = 18; @symbol_constdef = [filename,402,18,26]; @symbol_type<0> = [String,402,30,36]; ]
+            const filename as String = "C:\\Users\\codyp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\confirmation_icon__hint_reject.svg";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 403; @position = 18; @symbol_constdef = [disableTransparency,403,18,37]; @symbol_type<0> = [Boolean,403,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 404; @position = 18; @symbol_constdef = [dithering,404,18,27]; @symbol_type<0> = [String,404,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 405; @position = 18; @symbol_constdef = [automaticPalette,405,18,34]; @symbol_type<0> = [Boolean,405,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 408; @symbol_moduledef = [system_icon_light__about,408,15,39]; ]
+        module system_icon_light__about {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 408; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 409; @position = 18; @symbol_constdef = [filename,409,18,26]; @symbol_type<0> = [String,409,30,36]; ]
+            const filename as String = "C:\\Users\\codyp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_light__about.svg";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 410; @position = 18; @symbol_constdef = [disableTransparency,410,18,37]; @symbol_type<0> = [Boolean,410,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 411; @position = 18; @symbol_constdef = [dithering,411,18,27]; @symbol_type<0> = [String,411,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 412; @position = 18; @symbol_constdef = [automaticPalette,412,18,34]; @symbol_type<0> = [Boolean,412,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 415; @symbol_moduledef = [system_size__toast_icon,415,15,38]; ]
+        module system_size__toast_icon {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 415; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 416; @position = 18; @symbol_constdef = [width,416,18,23]; @symbol_type<0> = [Number,416,27,33]; ]
+            const width as Number = 44;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 417; @position = 18; @symbol_constdef = [scaleRelativeTo,417,18,33]; @symbol_type<0> = [String,417,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 420; @symbol_moduledef = [system_icon_dark__hint_button_right_middle,420,15,57]; ]
+        module system_icon_dark__hint_button_right_middle {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 420; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 421; @position = 18; @symbol_constdef = [exclude,421,18,25]; @symbol_type<0> = [Boolean,421,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 424; @symbol_moduledef = [confirmation_icon__hint_reject,424,15,45]; ]
+        module confirmation_icon__hint_reject {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 424; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 425; @position = 18; @symbol_constdef = [filename,425,18,26]; @symbol_type<0> = [String,425,30,36]; ]
+            const filename as String = "C:\\Users\\codyp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\confirmation_icon__hint_reject.svg";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 426; @position = 18; @symbol_constdef = [disableTransparency,426,18,37]; @symbol_type<0> = [Boolean,426,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 427; @position = 18; @symbol_constdef = [dithering,427,18,27]; @symbol_type<0> = [String,427,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 428; @position = 18; @symbol_constdef = [automaticPalette,428,18,34]; @symbol_type<0> = [Boolean,428,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 431; @symbol_moduledef = [system_icon_light__hint_action_menu,431,15,50]; ]
+        module system_icon_light__hint_action_menu {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 431; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 432; @position = 18; @symbol_constdef = [filename,432,18,26]; @symbol_type<0> = [String,432,30,36]; ]
+            const filename as String = "C:\\Users\\codyp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_light__hint_button_right_top.svg";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 433; @position = 18; @symbol_constdef = [disableTransparency,433,18,37]; @symbol_type<0> = [Boolean,433,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 434; @position = 18; @symbol_constdef = [dithering,434,18,27]; @symbol_type<0> = [String,434,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 435; @position = 18; @symbol_constdef = [automaticPalette,435,18,34]; @symbol_type<0> = [Boolean,435,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 438; @symbol_moduledef = [system_icon_light__hint_button_right_middle,438,15,58]; ]
+        module system_icon_light__hint_button_right_middle {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 438; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 439; @position = 18; @symbol_constdef = [exclude,439,18,25]; @symbol_type<0> = [Boolean,439,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 442; @symbol_moduledef = [system_icon_destructive__hint_button_right_middle,442,15,64]; ]
+        module system_icon_destructive__hint_button_right_middle {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 442; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 443; @position = 18; @symbol_constdef = [exclude,443,18,25]; @symbol_type<0> = [Boolean,443,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 446; @symbol_moduledef = [confirmation_loc__hint_reject,446,15,44]; ]
+        module confirmation_loc__hint_reject {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 446; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 447; @position = 18; @symbol_constdef = [x,447,18,19]; @symbol_type<0> = [Number,447,23,29]; ]
+            const x as Number = 0;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 448; @position = 18; @symbol_constdef = [y,448,18,19]; @symbol_type<0> = [Number,448,23,29]; ]
+            const y as Number = 138;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 451; @symbol_moduledef = [confirmation_icon_dark__hint_delete,451,15,50]; ]
+        module confirmation_icon_dark__hint_delete {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 451; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 452; @position = 18; @symbol_constdef = [filename,452,18,26]; @symbol_type<0> = [String,452,30,36]; ]
+            const filename as String = "C:\\Users\\codyp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\confirmation_icon__hint_delete.svg";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 453; @position = 18; @symbol_constdef = [disableTransparency,453,18,37]; @symbol_type<0> = [Boolean,453,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 454; @position = 18; @symbol_constdef = [dithering,454,18,27]; @symbol_type<0> = [String,454,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 455; @position = 18; @symbol_constdef = [automaticPalette,455,18,34]; @symbol_type<0> = [Boolean,455,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 458; @symbol_moduledef = [activity_color_dark__background,458,15,46]; ]
+        module activity_color_dark__background {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 458; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 459; @position = 18; @symbol_constdef = [color,459,18,23]; @symbol_type<0> = [Number,459,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 460; @position = 18; @symbol_constdef = [background,460,18,28]; @symbol_type<0> = [Number,460,32,38]; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 463; @symbol_moduledef = [system_icon_light__hint_button_left_bottom,463,15,57]; ]
+        module system_icon_light__hint_button_left_bottom {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 463; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 464; @position = 18; @symbol_constdef = [exclude,464,18,25]; @symbol_type<0> = [Boolean,464,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 467; @symbol_moduledef = [system_icon_positive__hint_button_left_middle,467,15,60]; ]
+        module system_icon_positive__hint_button_left_middle {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 467; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 468; @position = 18; @symbol_constdef = [exclude,468,18,25]; @symbol_type<0> = [Boolean,468,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 471; @symbol_moduledef = [system_size__menu_icon,471,15,37]; ]
+        module system_size__menu_icon {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 471; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 472; @position = 18; @symbol_constdef = [scaleX,472,18,24]; @symbol_type<0> = [Number,472,28,34]; ]
+            const scaleX as Number = 38;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 473; @position = 18; @symbol_constdef = [scaleY,473,18,24]; @symbol_type<0> = [Number,473,28,34]; ]
+            const scaleY as Number = 38;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 474; @position = 18; @symbol_constdef = [scaleRelativeTo,474,18,33]; @symbol_type<0> = [String,474,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 477; @symbol_moduledef = [system_icon_destructive__warning,477,15,47]; ]
+        module system_icon_destructive__warning {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 477; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 478; @position = 18; @symbol_constdef = [filename,478,18,26]; @symbol_type<0> = [String,478,30,36]; ]
+            const filename as String = "C:\\Users\\codyp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_dark__warning.svg";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 479; @position = 18; @symbol_constdef = [disableTransparency,479,18,37]; @symbol_type<0> = [Boolean,479,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 480; @position = 18; @symbol_constdef = [dithering,480,18,27]; @symbol_type<0> = [String,480,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 481; @position = 18; @symbol_constdef = [automaticPalette,481,18,34]; @symbol_type<0> = [Boolean,481,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 484; @symbol_moduledef = [system_loc__hint_button_right_middle,484,15,51]; ]
+        module system_loc__hint_button_right_middle {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 484; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 485; @position = 18; @symbol_constdef = [exclude,485,18,25]; @symbol_type<0> = [Boolean,485,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 488; @symbol_moduledef = [system_icon_dark__cancel,488,15,39]; ]
+        module system_icon_dark__cancel {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 488; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 489; @position = 18; @symbol_constdef = [filename,489,18,26]; @symbol_type<0> = [String,489,30,36]; ]
+            const filename as String = "C:\\Users\\codyp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_dark__cancel.svg";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 490; @position = 18; @symbol_constdef = [disableTransparency,490,18,37]; @symbol_type<0> = [Boolean,490,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 491; @position = 18; @symbol_constdef = [dithering,491,18,27]; @symbol_type<0> = [String,491,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 492; @position = 18; @symbol_constdef = [automaticPalette,492,18,34]; @symbol_type<0> = [Boolean,492,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 495; @symbol_moduledef = [prompt_size__body_with_title,495,15,43]; ]
+        module prompt_size__body_with_title {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 495; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 496; @position = 18; @symbol_constdef = [width,496,18,23]; @symbol_type<0> = [Number,496,27,33]; ]
+            const width as Number = 166;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 497; @position = 18; @symbol_constdef = [height,497,18,24]; @symbol_type<0> = [Number,497,28,34]; ]
+            const height as Number = 99;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 500; @symbol_moduledef = [system_loc__hint_button_right_top,500,15,48]; ]
+        module system_loc__hint_button_right_top {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 500; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 501; @position = 18; @symbol_constdef = [x,501,18,19]; @symbol_type<0> = [Number,501,23,29]; ]
+            const x as Number = 166;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 502; @position = 18; @symbol_constdef = [y,502,18,19]; @symbol_type<0> = [Number,502,23,29]; ]
+            const y as Number = 31;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 503; @position = 18; @symbol_constdef = [horizontalJustification,503,18,41]; @symbol_type<0> = [String,503,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 504; @position = 18; @symbol_constdef = [verticalJustification,504,18,39]; @symbol_type<0> = [String,504,43,49]; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 507; @symbol_moduledef = [system_color_light__text,507,15,39]; ]
+        module system_color_light__text {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 507; ]
+            <init> {
+[ "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen" 509 18 ]
+                symbol [ Graphics %tmp.40 509 31 39 ];
+                %tmp.40 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.41 509 40 57 ];
+                %tmp.41 = getv %tmp.40 :COLOR_TRANSPARENT;
+                putv self :background %tmp.41;
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 508; @position = 18; @symbol_constdef = [color,508,18,23]; @symbol_type<0> = [Number,508,27,33]; ]
+            const color as Number = 0x000000;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 509; @position = 18; @symbol_constdef = [background,509,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 512; @symbol_moduledef = [system_icon_light__check,512,15,39]; ]
+        module system_icon_light__check {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 512; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 513; @position = 18; @symbol_constdef = [filename,513,18,26]; @symbol_type<0> = [String,513,30,36]; ]
+            const filename as String = "C:\\Users\\codyp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_light__check.svg";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 514; @position = 18; @symbol_constdef = [disableTransparency,514,18,37]; @symbol_type<0> = [Boolean,514,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 515; @position = 18; @symbol_constdef = [dithering,515,18,27]; @symbol_type<0> = [String,515,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 516; @position = 18; @symbol_constdef = [automaticPalette,516,18,34]; @symbol_type<0> = [Boolean,516,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 519; @symbol_moduledef = [confirmation_input__reject,519,15,41]; ]
+        module confirmation_input__reject {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 519; ]
+            <init> {
+[ "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen" 520 18 ]
+                symbol [ WatchUi %tmp.42 520 27 34 ];
+                %tmp.42 = getm $.Toybox.WatchUi;
+                symbol [ KEY_DOWN %tmp.43 520 35 43 ];
+                %tmp.43 = getv %tmp.42 :KEY_DOWN;
+                putv self :button %tmp.43;
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 520; @position = 18; @symbol_constdef = [button,520,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 523; @symbol_moduledef = [system_icon_light__revert,523,15,40]; ]
+        module system_icon_light__revert {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 523; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 524; @position = 18; @symbol_constdef = [filename,524,18,26]; @symbol_type<0> = [String,524,30,36]; ]
+            const filename as String = "C:\\Users\\codyp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_light__revert.svg";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 525; @position = 18; @symbol_constdef = [disableTransparency,525,18,37]; @symbol_type<0> = [Boolean,525,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 526; @position = 18; @symbol_constdef = [dithering,526,18,27]; @symbol_type<0> = [String,526,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 527; @position = 18; @symbol_constdef = [automaticPalette,527,18,34]; @symbol_type<0> = [Boolean,527,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 530; @symbol_moduledef = [system_size__subwindow,530,15,37]; ]
+        module system_size__subwindow {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 530; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 531; @position = 18; @symbol_constdef = [width,531,18,23]; @symbol_type<0> = [Number,531,27,33]; ]
+            const width as Number = 62;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 532; @position = 18; @symbol_constdef = [height,532,18,24]; @symbol_type<0> = [Number,532,28,34]; ]
+            const height as Number = 62;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 535; @symbol_moduledef = [system_icon_positive__hint_button_left_bottom,535,15,60]; ]
+        module system_icon_positive__hint_button_left_bottom {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 535; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 536; @position = 18; @symbol_constdef = [exclude,536,18,25]; @symbol_type<0> = [Boolean,536,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 539; @symbol_moduledef = [system_icon_dark__check,539,15,38]; ]
+        module system_icon_dark__check {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 539; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 540; @position = 18; @symbol_constdef = [filename,540,18,26]; @symbol_type<0> = [String,540,30,36]; ]
+            const filename as String = "C:\\Users\\codyp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_dark__check.svg";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 541; @position = 18; @symbol_constdef = [disableTransparency,541,18,37]; @symbol_type<0> = [Boolean,541,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 542; @position = 18; @symbol_constdef = [dithering,542,18,27]; @symbol_type<0> = [String,542,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 543; @position = 18; @symbol_constdef = [automaticPalette,543,18,34]; @symbol_type<0> = [Boolean,543,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 546; @symbol_moduledef = [confirmation_loc__hint_keep,546,15,42]; ]
+        module confirmation_loc__hint_keep {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 546; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 547; @position = 18; @symbol_constdef = [x,547,18,19]; @symbol_type<0> = [Number,547,23,29]; ]
+            const x as Number = 0;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 548; @position = 18; @symbol_constdef = [y,548,18,19]; @symbol_type<0> = [Number,548,23,29]; ]
+            const y as Number = 138;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 551; @symbol_moduledef = [confirmation_loc__hint_delete,551,15,44]; ]
+        module confirmation_loc__hint_delete {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 551; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 552; @position = 18; @symbol_constdef = [verticallJustification,552,18,40]; @symbol_type<0> = [String,552,44,50]; ]
+            const verticallJustification as String = "center";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 553; @position = 18; @symbol_constdef = [x,553,18,19]; @symbol_type<0> = [Number,553,23,29]; ]
+            const x as Number = 146;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 554; @position = 18; @symbol_constdef = [y,554,18,19]; @symbol_type<0> = [Number,554,23,29]; ]
+            const y as Number = 15;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 555; @position = 18; @symbol_constdef = [horizontalJustification,555,18,41]; @symbol_type<0> = [String,555,45,51]; ]
+            const horizontalJustification as String = "center";
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 558; @symbol_moduledef = [system_icon_positive__hint_action_menu,558,15,53]; ]
+        module system_icon_positive__hint_action_menu {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 558; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 559; @position = 18; @symbol_constdef = [filename,559,18,26]; @symbol_type<0> = [String,559,30,36]; ]
+            const filename as String = "C:\\Users\\codyp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_positive__hint_button_right_top.svg";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 560; @position = 18; @symbol_constdef = [disableTransparency,560,18,37]; @symbol_type<0> = [Boolean,560,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 561; @position = 18; @symbol_constdef = [dithering,561,18,27]; @symbol_type<0> = [String,561,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 562; @position = 18; @symbol_constdef = [automaticPalette,562,18,34]; @symbol_type<0> = [Boolean,562,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 565; @symbol_moduledef = [system_icon_positive__hint_button_right_middle,565,15,61]; ]
+        module system_icon_positive__hint_button_right_middle {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 565; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 566; @position = 18; @symbol_constdef = [exclude,566,18,25]; @symbol_type<0> = [Boolean,566,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 569; @symbol_moduledef = [system_icon_light__hint_button_left_middle,569,15,57]; ]
+        module system_icon_light__hint_button_left_middle {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 569; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 570; @position = 18; @symbol_constdef = [exclude,570,18,25]; @symbol_type<0> = [Boolean,570,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 573; @symbol_moduledef = [system_icon_dark__hint_button_right_bottom,573,15,57]; ]
+        module system_icon_dark__hint_button_right_bottom {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 573; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 574; @position = 18; @symbol_constdef = [exclude,574,18,25]; @symbol_type<0> = [Boolean,574,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 577; @symbol_moduledef = [system_icon_positive__hint_button_right_bottom,577,15,61]; ]
+        module system_icon_positive__hint_button_right_bottom {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 577; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 578; @position = 18; @symbol_constdef = [exclude,578,18,25]; @symbol_type<0> = [Boolean,578,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 581; @symbol_moduledef = [system_icon_dark__revert,581,15,39]; ]
+        module system_icon_dark__revert {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 581; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 582; @position = 18; @symbol_constdef = [filename,582,18,26]; @symbol_type<0> = [String,582,30,36]; ]
+            const filename as String = "C:\\Users\\codyp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_dark__revert.svg";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 583; @position = 18; @symbol_constdef = [disableTransparency,583,18,37]; @symbol_type<0> = [Boolean,583,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 584; @position = 18; @symbol_constdef = [dithering,584,18,27]; @symbol_type<0> = [String,584,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 585; @position = 18; @symbol_constdef = [automaticPalette,585,18,34]; @symbol_type<0> = [Boolean,585,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 588; @symbol_moduledef = [confirmation_icon_light__hint_delete,588,15,51]; ]
+        module confirmation_icon_light__hint_delete {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 588; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 589; @position = 18; @symbol_constdef = [filename,589,18,26]; @symbol_type<0> = [String,589,30,36]; ]
+            const filename as String = "C:\\Users\\codyp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\confirmation_icon__hint_delete.svg";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 590; @position = 18; @symbol_constdef = [disableTransparency,590,18,37]; @symbol_type<0> = [Boolean,590,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 591; @position = 18; @symbol_constdef = [dithering,591,18,27]; @symbol_type<0> = [String,591,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 592; @position = 18; @symbol_constdef = [automaticPalette,592,18,34]; @symbol_type<0> = [Boolean,592,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 595; @symbol_moduledef = [system_icon_dark__question,595,15,41]; ]
+        module system_icon_dark__question {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 595; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 596; @position = 18; @symbol_constdef = [filename,596,18,26]; @symbol_type<0> = [String,596,30,36]; ]
+            const filename as String = "C:\\Users\\codyp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_dark__question.svg";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 597; @position = 18; @symbol_constdef = [disableTransparency,597,18,37]; @symbol_type<0> = [Boolean,597,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 598; @position = 18; @symbol_constdef = [dithering,598,18,27]; @symbol_type<0> = [String,598,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 599; @position = 18; @symbol_constdef = [automaticPalette,599,18,34]; @symbol_type<0> = [Boolean,599,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 602; @symbol_moduledef = [system_icon_light__discard,602,15,41]; ]
+        module system_icon_light__discard {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 602; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 603; @position = 18; @symbol_constdef = [filename,603,18,26]; @symbol_type<0> = [String,603,30,36]; ]
+            const filename as String = "C:\\Users\\codyp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_light__discard.svg";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 604; @position = 18; @symbol_constdef = [disableTransparency,604,18,37]; @symbol_type<0> = [Boolean,604,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 605; @position = 18; @symbol_constdef = [dithering,605,18,27]; @symbol_type<0> = [String,605,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 606; @position = 18; @symbol_constdef = [automaticPalette,606,18,34]; @symbol_type<0> = [Boolean,606,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 609; @symbol_moduledef = [device_info,609,15,26]; ]
+        module device_info {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 609; ]
+            <init> {
+[ "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen" 611 18 ]
+                symbol [ Toybox %tmp.45 611 32 38 ];
+                %tmp.45 = getv ? :Toybox;
+                symbol [ System %tmp.46 611 39 45 ];
+                %tmp.46 = getv %tmp.45 :System;
+                symbol [ SCREEN_SHAPE_SEMI_OCTAGON %tmp.47 611 46 71 ];
+                %tmp.47 = getv %tmp.46 :SCREEN_SHAPE_SEMI_OCTAGON;
+                putv self :screenShape %tmp.47;
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 610; @position = 18; @symbol_constdef = [screenWidth,610,18,29]; @symbol_type<0> = [Number,610,33,39]; ]
+            const screenWidth as Number = 176;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 611; @position = 18; @symbol_constdef = [screenShape,611,18,29]; ]
+            const screenShape;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 612; @position = 18; @symbol_constdef = [hasNightMode,612,18,30]; @symbol_type<0> = [Boolean,612,34,41]; ]
+            const hasNightMode as Boolean = false;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 613; @position = 18; @symbol_constdef = [hasGpu,613,18,24]; @symbol_type<0> = [Boolean,613,28,35]; ]
+            const hasGpu as Boolean = false;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 614; @position = 18; @symbol_constdef = [screenHeight,614,18,30]; @symbol_type<0> = [Number,614,34,40]; ]
+            const screenHeight as Number = 176;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 615; @position = 18; @symbol_constdef = [hasTouchScreen,615,18,32]; @symbol_type<0> = [Boolean,615,36,43]; ]
+            const hasTouchScreen as Boolean = false;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 616; @position = 18; @symbol_constdef = [hasEnhancedReadabilityMode,616,18,44]; @symbol_type<0> = [Boolean,616,48,55]; ]
+            const hasEnhancedReadabilityMode as Boolean = false;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 619; @symbol_moduledef = [confirmation_icon_dark__hint_confirm,619,15,51]; ]
+        module confirmation_icon_dark__hint_confirm {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 619; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 620; @position = 18; @symbol_constdef = [filename,620,18,26]; @symbol_type<0> = [String,620,30,36]; ]
+            const filename as String = "C:\\Users\\codyp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\confirmation_icon__hint_completion.svg";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 621; @position = 18; @symbol_constdef = [disableTransparency,621,18,37]; @symbol_type<0> = [Boolean,621,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 622; @position = 18; @symbol_constdef = [dithering,622,18,27]; @symbol_type<0> = [String,622,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 623; @position = 18; @symbol_constdef = [automaticPalette,623,18,34]; @symbol_type<0> = [Boolean,623,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 626; @symbol_moduledef = [prompt_font__body_no_title,626,15,41]; ]
+        module prompt_font__body_no_title {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 626; ]
+            <init> {
+[ "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen" 627 18 ]
+                symbol [ Graphics %tmp.48 627 34 42 ];
+                %tmp.48 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.49 627 43 62 ];
+                %tmp.49 = getv %tmp.48 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.49;
+[ "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen" 628 18 ]
+                symbol [ Graphics %tmp.50 628 25 33 ];
+                %tmp.50 = getm $.Toybox.Graphics;
+                symbol [ FONT_TINY %tmp.51 628 34 43 ];
+                %tmp.51 = getv %tmp.50 :FONT_TINY;
+                putv self :font %tmp.51;
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 627; @position = 18; @symbol_constdef = [justification,627,18,31]; ]
+            const justification;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 628; @position = 18; @symbol_constdef = [font,628,18,22]; ]
+            const font;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 631; @symbol_moduledef = [prompt_size__title_icon,631,15,38]; ]
+        module prompt_size__title_icon {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 631; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 632; @position = 18; @symbol_constdef = [scaleX,632,18,24]; @symbol_type<0> = [Number,632,28,34]; ]
+            const scaleX as Number = 38;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 633; @position = 18; @symbol_constdef = [scaleY,633,18,24]; @symbol_type<0> = [Number,633,28,34]; ]
+            const scaleY as Number = 38;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 634; @position = 18; @symbol_constdef = [scaleRelativeTo,634,18,33]; @symbol_type<0> = [String,634,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 637; @symbol_moduledef = [system_icon_dark__warning,637,15,40]; ]
+        module system_icon_dark__warning {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 637; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 638; @position = 18; @symbol_constdef = [filename,638,18,26]; @symbol_type<0> = [String,638,30,36]; ]
+            const filename as String = "C:\\Users\\codyp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_dark__warning.svg";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 639; @position = 18; @symbol_constdef = [disableTransparency,639,18,37]; @symbol_type<0> = [Boolean,639,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 640; @position = 18; @symbol_constdef = [dithering,640,18,27]; @symbol_type<0> = [String,640,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 641; @position = 18; @symbol_constdef = [automaticPalette,641,18,34]; @symbol_type<0> = [Boolean,641,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 644; @symbol_moduledef = [prompt_loc__title_icon,644,15,37]; ]
+        module prompt_loc__title_icon {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 644; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 645; @position = 18; @symbol_constdef = [x,645,18,19]; @symbol_type<0> = [Number,645,23,29]; ]
+            const x as Number = 145;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 646; @position = 18; @symbol_constdef = [y,646,18,19]; @symbol_type<0> = [Number,646,23,29]; ]
+            const y as Number = 31;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 647; @position = 18; @symbol_constdef = [horizontalJustification,647,18,41]; @symbol_type<0> = [String,647,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 648; @position = 18; @symbol_constdef = [verticalJustification,648,18,39]; @symbol_type<0> = [String,648,43,49]; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 651; @symbol_moduledef = [prompt_font_enhanced_readability__title,651,15,54]; ]
+        module prompt_font_enhanced_readability__title {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 651; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 652; @position = 18; @symbol_constdef = [exclude,652,18,25]; @symbol_type<0> = [Boolean,652,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 655; @symbol_moduledef = [prompt_color_dark__body,655,15,38]; ]
+        module prompt_color_dark__body {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 655; ]
+            <init> {
+[ "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen" 657 18 ]
+                symbol [ Graphics %tmp.52 657 31 39 ];
+                %tmp.52 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.53 657 40 57 ];
+                %tmp.53 = getv %tmp.52 :COLOR_TRANSPARENT;
+                putv self :background %tmp.53;
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 656; @position = 18; @symbol_constdef = [color,656,18,23]; @symbol_type<0> = [Number,656,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 657; @position = 18; @symbol_constdef = [background,657,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 660; @symbol_moduledef = [confirmation_icon__hint_delete,660,15,45]; ]
+        module confirmation_icon__hint_delete {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 660; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 661; @position = 18; @symbol_constdef = [filename,661,18,26]; @symbol_type<0> = [String,661,30,36]; ]
+            const filename as String = "C:\\Users\\codyp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\confirmation_icon__hint_delete.svg";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 662; @position = 18; @symbol_constdef = [disableTransparency,662,18,37]; @symbol_type<0> = [Boolean,662,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 663; @position = 18; @symbol_constdef = [dithering,663,18,27]; @symbol_type<0> = [String,663,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 664; @position = 18; @symbol_constdef = [automaticPalette,664,18,34]; @symbol_type<0> = [Boolean,664,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 667; @symbol_moduledef = [system_icon_light__hint_button_right_top,667,15,55]; ]
+        module system_icon_light__hint_button_right_top {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 667; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 668; @position = 18; @symbol_constdef = [filename,668,18,26]; @symbol_type<0> = [String,668,30,36]; ]
+            const filename as String = "C:\\Users\\codyp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_light__hint_button_right_top.svg";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 669; @position = 18; @symbol_constdef = [disableTransparency,669,18,37]; @symbol_type<0> = [Boolean,669,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 670; @position = 18; @symbol_constdef = [dithering,670,18,27]; @symbol_type<0> = [String,670,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 671; @position = 18; @symbol_constdef = [automaticPalette,671,18,34]; @symbol_type<0> = [Boolean,671,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 674; @symbol_moduledef = [confirmation_size__body,674,15,38]; ]
+        module confirmation_size__body {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 674; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 675; @position = 18; @symbol_constdef = [width,675,18,23]; @symbol_type<0> = [Number,675,27,33]; ]
+            const width as Number = 173;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 676; @position = 18; @symbol_constdef = [height,676,18,24]; @symbol_type<0> = [Number,676,28,34]; ]
+            const height as Number = 63;
+        }
+        [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 679; @symbol_moduledef = [system_icon_positive__check,679,15,42]; ]
+        module system_icon_positive__check {
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 679; ]
+            <init> {
+            }
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 680; @position = 18; @symbol_constdef = [filename,680,18,26]; @symbol_type<0> = [String,680,30,36]; ]
+            const filename as String = "C:\\Users\\codyp\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\instinct3solar45mm\\system_icon_dark__check.svg";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 681; @position = 18; @symbol_constdef = [disableTransparency,681,18,37]; @symbol_type<0> = [Boolean,681,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 682; @position = 18; @symbol_constdef = [dithering,682,18,27]; @symbol_type<0> = [String,682,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 683; @position = 18; @symbol_constdef = [automaticPalette,683,18,34]; @symbol_type<0> = [Boolean,683,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+    }
+}
+[ @file = "c:\Users\codyp\VSCodeProjects\GarminWatchFace\bin\gen\006-B4585-00\source\Rez.mcgen"; @line = 1; ]
+<init> {
+}

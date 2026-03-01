@@ -1,0 +1,93 @@
+[ @file = "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\TimeHelpers.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\TimeHelpers.mc"; @line = 3; @symbol_moduledef = [TimeHelpers,3,7,18]; ]
+module TimeHelpers {
+    [ @file = "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\TimeHelpers.mc"; @line = 3; ]
+    <init> {
+    }
+    [ @file = "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\TimeHelpers.mc"; @line = 4; @symbol_functiondef = [getFormattedTime,4,13,29]; @symbol_param<0> = [clockTime,4,30,39]; ]
+    function getFormattedTime(clockTime) {
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_TimeHelpers_mc_4_41_20_4_start:
+[ "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\TimeHelpers.mc" 6 8 ]
+        [ "C__Users_codyp_VSCodeProjects_GarminWatchFace_source_TimeHelpers_mc_4_41_20_4_start" "C__Users_codyp_VSCodeProjects_GarminWatchFace_source_TimeHelpers_mc_4_41_20_4_stop" ]
+        %hour12.1 = local;
+        symbol [ hour12 %hour12.1 6 12 18 ];
+        %tmp.1 = lgetv %clockTime;
+        symbol [ clockTime %tmp.1 6 21 30 ];
+        symbol [ hour %tmp.2 6 31 35 ];
+        %tmp.2 = getv %tmp.1 :hour;
+        lputv %hour12.1 %tmp.2;
+        symbol [ hour12 %hour12.1 6 12 18 ];
+[ "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\TimeHelpers.mc" 7 8 ]
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_TimeHelpers_mc_7_8_11_8_if_stmt:
+        %tmp.3 = lgetv %hour12.1;
+        symbol [ hour12 %tmp.3 7 12 18 ];
+        %tmp.4 = 12;
+        %tmp.5 = gt %tmp.3 %tmp.4;
+        bf %tmp.5 @C__Users_codyp_VSCodeProjects_GarminWatchFace_source_TimeHelpers_mc_7_8_11_8_if_false;
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_TimeHelpers_mc_7_8_11_8_if_true:
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_TimeHelpers_mc_7_25_9_8_start:
+[ "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\TimeHelpers.mc" 8 12 ]
+        %tmp.6 = lgetv %hour12.1;
+        symbol [ hour12 %tmp.6 8 12 18 ];
+        %tmp.7 = 12;
+        %tmp.8 = sub %tmp.6 %tmp.7;
+        lputv %hour12.1 %tmp.8;
+        symbol [ hour12 %hour12.1 8 12 18 ];
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_TimeHelpers_mc_7_25_9_8_stop:
+        goto @C__Users_codyp_VSCodeProjects_GarminWatchFace_source_TimeHelpers_mc_7_8_11_8_if_end;
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_TimeHelpers_mc_7_8_11_8_if_false:
+[ "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\TimeHelpers.mc" 9 15 ]
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_TimeHelpers_mc_9_15_11_8_if_stmt:
+        %tmp.9 = lgetv %hour12.1;
+        symbol [ hour12 %tmp.9 9 19 25 ];
+        %tmp.10 = 0;
+        %tmp.11 = eq %tmp.9 %tmp.10;
+        bf %tmp.11 @C__Users_codyp_VSCodeProjects_GarminWatchFace_source_TimeHelpers_mc_9_15_11_8_if_end;
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_TimeHelpers_mc_9_15_11_8_if_true:
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_TimeHelpers_mc_9_32_11_8_start:
+[ "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\TimeHelpers.mc" 10 12 ]
+        %tmp.12 = 12;
+        lputv %hour12.1 %tmp.12;
+        symbol [ hour12 %hour12.1 10 12 18 ];
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_TimeHelpers_mc_9_32_11_8_stop:
+        goto @C__Users_codyp_VSCodeProjects_GarminWatchFace_source_TimeHelpers_mc_9_15_11_8_if_end;
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_TimeHelpers_mc_9_15_11_8_if_end:
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_TimeHelpers_mc_7_8_11_8_if_end:
+[ "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\TimeHelpers.mc" 14 8 ]
+        [ "C__Users_codyp_VSCodeProjects_GarminWatchFace_source_TimeHelpers_mc_4_41_20_4_start" "C__Users_codyp_VSCodeProjects_GarminWatchFace_source_TimeHelpers_mc_4_41_20_4_stop" ]
+        %timeString.2 = local;
+        symbol [ timeString %timeString.2 14 12 22 ];
+        symbol [ Lang %tmp.13 14 25 29 ];
+        %tmp.13 = getm $.Toybox.Lang;
+        symbol [ format %tmp.14 14 30 36 ];
+        %tmp.14 = getv function %tmp.13 :format;
+        %tmp.15 = "$1$:$2$";
+        %tmp.16 = newa 2;
+        %tmp.17 = lgetv %hour12.1;
+        symbol [ hour12 %tmp.17 15 12 18 ];
+        %tmp.18 = dup %tmp.16;
+        %tmp.19 = aputv %tmp.18 0 %tmp.17;
+        %tmp.20 = lgetv %clockTime;
+        symbol [ clockTime %tmp.20 16 12 21 ];
+        symbol [ min %tmp.21 16 22 25 ];
+        %tmp.21 = getv %tmp.20 :min;
+        symbol [ format %tmp.22 16 26 32 ];
+        %tmp.22 = getv function %tmp.21 :format;
+        %tmp.23 = "%02d";
+        %tmp.24 = invoke %tmp.21 %tmp.22(%tmp.23);
+        %tmp.25 = dup %tmp.19;
+        %tmp.26 = aputv %tmp.25 1 %tmp.24;
+        %tmp.27 = invoke %tmp.13 %tmp.14(%tmp.15, %tmp.26);
+        lputv %timeString.2 %tmp.27;
+        symbol [ timeString %timeString.2 14 12 22 ];
+[ "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\TimeHelpers.mc" 19 8 ]
+        %tmp.28 = lgetv %timeString.2;
+        symbol [ timeString %tmp.28 19 15 25 ];
+        ret %tmp.28;
+C__Users_codyp_VSCodeProjects_GarminWatchFace_source_TimeHelpers_mc_4_41_20_4_stop:
+    }
+}
+[ @file = "C:\Users\codyp\VSCodeProjects\GarminWatchFace\source\TimeHelpers.mc"; @line = 1; ]
+<init> {
+}
