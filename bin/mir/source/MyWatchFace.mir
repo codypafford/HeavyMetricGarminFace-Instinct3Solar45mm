@@ -2024,7 +2024,7 @@ C__Users_codyp_VSCodeProjects_GarminWatchFace_source_MyWatchFace_mc_298_25_298_9
         %tmp.262 = getv %tmp.261 :FONT_GLANCE_NUMBER;
         %tmp.263 = lgetv %tempStr.13;
         symbol [ tempStr %tmp.263 304 59 66 ];
-        %tmp.264 = "°";
+        %tmp.264 = "Â°";
         %tmp.265 = add %tmp.263 %tmp.264;
         symbol [ Graphics %tmp.266 304 74 82 ];
         %tmp.266 = getm $.Toybox.Graphics;

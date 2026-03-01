@@ -727,7 +727,7 @@ C__Users_codyp_VSCodeProjects_GarminWatchFace_source_WeatherHelpers_mc_97_49_100
         %tmp.6 = getv function %tmp.5 :format;
         %tmp.7 = "%d";
         %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
-        %tmp.9 = "°C";
+        %tmp.9 = "Â°C";
         %tmp.10 = add %tmp.8 %tmp.9;
         ret %tmp.10;
 C__Users_codyp_VSCodeProjects_GarminWatchFace_source_WeatherHelpers_mc_97_49_100_8_stop:
@@ -755,7 +755,7 @@ C__Users_codyp_VSCodeProjects_GarminWatchFace_source_WeatherHelpers_mc_100_15_10
         %tmp.19 = getv function %tmp.18 :format;
         %tmp.20 = "%d";
         %tmp.21 = invoke %tmp.18 %tmp.19(%tmp.20);
-        %tmp.22 = "°F";
+        %tmp.22 = "Â°F";
         %tmp.23 = add %tmp.21 %tmp.22;
         ret %tmp.23;
 C__Users_codyp_VSCodeProjects_GarminWatchFace_source_WeatherHelpers_mc_100_15_104_8_stop:
