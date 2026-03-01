@@ -2,355 +2,355 @@
 <debugInfo>
 <manifest filename="C:\Users\codyp\VSCodeProjects\GarminWatchFace\manifest.xml"/>
 <pcToLineNum>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="1" lineNum="21" parent="globals/MyWatchFace" pc="268435460" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="1" lineNum="20" parent="globals/MyWatchFace" pc="268435460" symbol="&lt;init&gt;"/>
 <entry filename="c:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\bin\\gen\\006-B4585-00\\source\\Rez.mcgen" id="2" lineNum="7" parent="globals/Rez" pc="268435472" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="3" lineNum="10" parent="globals/MyProjectApp" pc="268435492" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="4" lineNum="136" parent="globals/MyWatchFace" pc="268435504" symbol="drawStepGoalBar"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="4" lineNum="138" parent="globals/MyWatchFace" pc="268435507" symbol="drawStepGoalBar"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="4" lineNum="139" parent="globals/MyWatchFace" pc="268435511" symbol="drawStepGoalBar"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="4" lineNum="140" parent="globals/MyWatchFace" pc="268435515" symbol="drawStepGoalBar"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="4" lineNum="141" parent="globals/MyWatchFace" pc="268435519" symbol="drawStepGoalBar"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="4" lineNum="144" parent="globals/MyWatchFace" pc="268435523" symbol="drawStepGoalBar"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="4" lineNum="145" parent="globals/MyWatchFace" pc="268435540" symbol="drawStepGoalBar"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="4" lineNum="145" parent="globals/MyWatchFace" pc="268435551" symbol="drawStepGoalBar"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="4" lineNum="148" parent="globals/MyWatchFace" pc="268435561" symbol="drawStepGoalBar"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="4" lineNum="149" parent="globals/MyWatchFace" pc="268435574" symbol="drawStepGoalBar"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="4" lineNum="153" parent="globals/MyWatchFace" pc="268435592" symbol="drawStepGoalBar"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="4" lineNum="154" parent="globals/MyWatchFace" pc="268435609" symbol="drawStepGoalBar"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="4" lineNum="155" parent="globals/MyWatchFace" pc="268435622" symbol="drawStepGoalBar"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="5" lineNum="375" parent="globals/MyWatchFace" pc="268435647" symbol="partialUpdateSeconds"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="5" lineNum="376" parent="globals/MyWatchFace" pc="268435650" symbol="partialUpdateSeconds"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="5" lineNum="379" parent="globals/MyWatchFace" pc="268435662" symbol="partialUpdateSeconds"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="5" lineNum="380" parent="globals/MyWatchFace" pc="268435666" symbol="partialUpdateSeconds"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="5" lineNum="381" parent="globals/MyWatchFace" pc="268435670" symbol="partialUpdateSeconds"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="5" lineNum="382" parent="globals/MyWatchFace" pc="268435674" symbol="partialUpdateSeconds"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="5" lineNum="383" parent="globals/MyWatchFace" pc="268435678" symbol="partialUpdateSeconds"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="5" lineNum="387" parent="globals/MyWatchFace" pc="268435682" symbol="partialUpdateSeconds"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="5" lineNum="395" parent="globals/MyWatchFace" pc="268435718" symbol="partialUpdateSeconds"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="5" lineNum="396" parent="globals/MyWatchFace" pc="268435730" symbol="partialUpdateSeconds"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="5" lineNum="399" parent="globals/MyWatchFace" pc="268435738" symbol="partialUpdateSeconds"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="5" lineNum="400" parent="globals/MyWatchFace" pc="268435755" symbol="partialUpdateSeconds"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="5" lineNum="403" parent="globals/MyWatchFace" pc="268435773" symbol="partialUpdateSeconds"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="5" lineNum="404" parent="globals/MyWatchFace" pc="268435786" symbol="partialUpdateSeconds"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="5" lineNum="405" parent="globals/MyWatchFace" pc="268435807" symbol="partialUpdateSeconds"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="5" lineNum="414" parent="globals/MyWatchFace" pc="268435838" symbol="partialUpdateSeconds"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="6" lineNum="104" parent="globals/MyWatchFace" pc="268435847" symbol="drawActivityData"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="6" lineNum="105" parent="globals/MyWatchFace" pc="268435850" symbol="drawActivityData"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="6" lineNum="106" parent="globals/MyWatchFace" pc="268435867" symbol="drawActivityData"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="6" lineNum="107" parent="globals/MyWatchFace" pc="268435871" symbol="drawActivityData"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="6" lineNum="109" parent="globals/MyWatchFace" pc="268435875" symbol="drawActivityData"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="6" lineNum="110" parent="globals/MyWatchFace" pc="268435892" symbol="drawActivityData"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="6" lineNum="111" parent="globals/MyWatchFace" pc="268435917" symbol="drawActivityData"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="6" lineNum="112" parent="globals/MyWatchFace" pc="268435942" symbol="drawActivityData"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="6" lineNum="113" parent="globals/MyWatchFace" pc="268435968" symbol="drawActivityData"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="6" lineNum="114" parent="globals/MyWatchFace" pc="268435993" symbol="drawActivityData"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="6" lineNum="116" parent="globals/MyWatchFace" pc="268436018" symbol="drawActivityData"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="6" lineNum="117" parent="globals/MyWatchFace" pc="268436022" symbol="drawActivityData"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="6" lineNum="118" parent="globals/MyWatchFace" pc="268436026" symbol="drawActivityData"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="6" lineNum="121" parent="globals/MyWatchFace" pc="268436030" symbol="drawActivityData"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="6" lineNum="122" parent="globals/MyWatchFace" pc="268436047" symbol="drawActivityData"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="6" lineNum="125" parent="globals/MyWatchFace" pc="268436085" symbol="drawActivityData"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="6" lineNum="126" parent="globals/MyWatchFace" pc="268436102" symbol="drawActivityData"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="6" lineNum="129" parent="globals/MyWatchFace" pc="268436133" symbol="drawActivityData"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="7" lineNum="417" parent="globals/MyWatchFace" pc="268436155" symbol="drawTime"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="7" lineNum="418" parent="globals/MyWatchFace" pc="268436158" symbol="drawTime"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="7" lineNum="420" parent="globals/MyWatchFace" pc="268436175" symbol="drawTime"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="7" lineNum="421" parent="globals/MyWatchFace" pc="268436187" symbol="drawTime"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="7" lineNum="424" parent="globals/MyWatchFace" pc="268436203" symbol="drawTime"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="7" lineNum="433" parent="globals/MyWatchFace" pc="268436231" symbol="drawTime"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="7" lineNum="436" parent="globals/MyWatchFace" pc="268436248" symbol="drawTime"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="7" lineNum="437" parent="globals/MyWatchFace" pc="268436266" symbol="drawTime"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="7" lineNum="439" parent="globals/MyWatchFace" pc="268436279" symbol="drawTime"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="7" lineNum="440" parent="globals/MyWatchFace" pc="268436300" symbol="drawTime"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="7" lineNum="448" parent="globals/MyWatchFace" pc="268436330" symbol="drawTime"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="7" lineNum="450" parent="globals/MyWatchFace" pc="268436347" symbol="drawTime"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="7" lineNum="453" parent="globals/MyWatchFace" pc="268436365" symbol="drawTime"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="7" lineNum="456" parent="globals/MyWatchFace" pc="268436384" symbol="drawTime"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="258" parent="globals/MyWatchFace" pc="268436402" symbol="drawWeather"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="259" parent="globals/MyWatchFace" pc="268436405" symbol="drawWeather"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="261" parent="globals/MyWatchFace" pc="268436421" symbol="drawWeather"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="262" parent="globals/MyWatchFace" pc="268436445" symbol="drawWeather"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="263" parent="globals/MyWatchFace" pc="268436457" symbol="drawWeather"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="264" parent="globals/MyWatchFace" pc="268436463" symbol="drawWeather"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="265" parent="globals/MyWatchFace" pc="268436472" symbol="drawWeather"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="268" parent="globals/MyWatchFace" pc="268436487" symbol="drawWeather"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="270" parent="globals/MyWatchFace" pc="268436504" symbol="drawWeather"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="272" parent="globals/MyWatchFace" pc="268436513" symbol="drawWeather"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="273" parent="globals/MyWatchFace" pc="268436525" symbol="drawWeather"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="274" parent="globals/MyWatchFace" pc="268436551" symbol="drawWeather"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="277" parent="globals/MyWatchFace" pc="268436577" symbol="drawWeather"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="280" parent="globals/MyWatchFace" pc="268436607" symbol="drawWeather"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="281" parent="globals/MyWatchFace" pc="268436638" symbol="drawWeather"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="283" parent="globals/MyWatchFace" pc="268436643" symbol="drawWeather"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="286" parent="globals/MyWatchFace" pc="268436665" symbol="drawWeather"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="289" parent="globals/MyWatchFace" pc="268436687" symbol="drawWeather"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="293" parent="globals/MyWatchFace" pc="268436735" symbol="drawWeather"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="295" parent="globals/MyWatchFace" pc="268436757" symbol="drawWeather"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="296" parent="globals/MyWatchFace" pc="268436773" symbol="drawWeather"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="298" parent="globals/MyWatchFace" pc="268436795" symbol="drawWeather"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="299" parent="globals/MyWatchFace" pc="268436811" symbol="drawWeather"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="301" parent="globals/MyWatchFace" pc="268436833" symbol="drawWeather"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="303" parent="globals/MyWatchFace" pc="268436849" symbol="drawWeather"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="304" parent="globals/MyWatchFace" pc="268436868" symbol="drawWeather"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="308" parent="globals/MyWatchFace" pc="268436890" symbol="drawWeather"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="309" parent="globals/MyWatchFace" pc="268436894" symbol="drawWeather"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="311" parent="globals/MyWatchFace" pc="268436898" symbol="drawWeather"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="312" parent="globals/MyWatchFace" pc="268436910" symbol="drawWeather"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="313" parent="globals/MyWatchFace" pc="268436937" symbol="drawWeather"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="314" parent="globals/MyWatchFace" pc="268436964" symbol="drawWeather"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="317" parent="globals/MyWatchFace" pc="268436991" symbol="drawWeather"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="319" parent="globals/MyWatchFace" pc="268437021" symbol="drawWeather"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="320" parent="globals/MyWatchFace" pc="268437057" symbol="drawWeather"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="323" parent="globals/MyWatchFace" pc="268437093" symbol="drawWeather"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="326" parent="globals/MyWatchFace" pc="268437110" symbol="drawWeather"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="329" parent="globals/MyWatchFace" pc="268437136" symbol="drawWeather"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="330" parent="globals/MyWatchFace" pc="268437141" symbol="drawWeather"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="331" parent="globals/MyWatchFace" pc="268437145" symbol="drawWeather"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="332" parent="globals/MyWatchFace" pc="268437164" symbol="drawWeather"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="333" parent="globals/MyWatchFace" pc="268437184" symbol="drawWeather"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="334" parent="globals/MyWatchFace" pc="268437191" symbol="drawWeather"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="9" lineNum="64" parent="globals/MyWatchFace" pc="268437214" symbol="onHide"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="9" lineNum="66" parent="globals/MyWatchFace" pc="268437216" symbol="onHide"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="10" lineNum="200" parent="globals/MyWatchFace" pc="268437229" symbol="drawHeartRate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="10" lineNum="201" parent="globals/MyWatchFace" pc="268437232" symbol="drawHeartRate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="10" lineNum="202" parent="globals/MyWatchFace" pc="268437249" symbol="drawHeartRate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="10" lineNum="203" parent="globals/MyWatchFace" pc="268437255" symbol="drawHeartRate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="10" lineNum="204" parent="globals/MyWatchFace" pc="268437267" symbol="drawHeartRate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="10" lineNum="206" parent="globals/MyWatchFace" pc="268437274" symbol="drawHeartRate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="10" lineNum="207" parent="globals/MyWatchFace" pc="268437291" symbol="drawHeartRate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="10" lineNum="211" parent="globals/MyWatchFace" pc="268437312" symbol="drawHeartRate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="10" lineNum="212" parent="globals/MyWatchFace" pc="268437316" symbol="drawHeartRate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="10" lineNum="213" parent="globals/MyWatchFace" pc="268437320" symbol="drawHeartRate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="10" lineNum="215" parent="globals/MyWatchFace" pc="268437340" symbol="drawHeartRate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="10" lineNum="216" parent="globals/MyWatchFace" pc="268437347" symbol="drawHeartRate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="10" lineNum="218" parent="globals/MyWatchFace" pc="268437354" symbol="drawHeartRate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="10" lineNum="219" parent="globals/MyWatchFace" pc="268437373" symbol="drawHeartRate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="10" lineNum="223" parent="globals/MyWatchFace" pc="268437392" symbol="drawHeartRate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="10" lineNum="230" parent="globals/MyWatchFace" pc="268437472" symbol="drawHeartRate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="10" lineNum="231" parent="globals/MyWatchFace" pc="268437480" symbol="drawHeartRate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="10" lineNum="232" parent="globals/MyWatchFace" pc="268437504" symbol="drawHeartRate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="10" lineNum="233" parent="globals/MyWatchFace" pc="268437522" symbol="drawHeartRate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="10" lineNum="234" parent="globals/MyWatchFace" pc="268437534" symbol="drawHeartRate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="11" lineNum="51" parent="globals/MyWatchFace" pc="268437557" symbol="onExitSleep"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="11" lineNum="52" parent="globals/MyWatchFace" pc="268437559" symbol="onExitSleep"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="11" lineNum="53" parent="globals/MyWatchFace" pc="268437566" symbol="onExitSleep"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="11" lineNum="54" parent="globals/MyWatchFace" pc="268437598" symbol="onExitSleep"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="12" lineNum="132" parent="globals/MyWatchFace" pc="268437610" symbol="drawRecovery"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="12" lineNum="133" parent="globals/MyWatchFace" pc="268437612" symbol="drawRecovery"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="13" lineNum="57" parent="globals/MyWatchFace" pc="268437639" symbol="onShow"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="13" lineNum="58" parent="globals/MyWatchFace" pc="268437641" symbol="onShow"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="13" lineNum="60" parent="globals/MyWatchFace" pc="268437648" symbol="onShow"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="13" lineNum="61" parent="globals/MyWatchFace" pc="268437680" symbol="onShow"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="14" lineNum="158" parent="globals/MyWatchFace" pc="268437692" symbol="partialUpdateHeartRate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="14" lineNum="160" parent="globals/MyWatchFace" pc="268437695" symbol="partialUpdateHeartRate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="14" lineNum="161" parent="globals/MyWatchFace" pc="268437699" symbol="partialUpdateHeartRate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="14" lineNum="162" parent="globals/MyWatchFace" pc="268437703" symbol="partialUpdateHeartRate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="14" lineNum="163" parent="globals/MyWatchFace" pc="268437707" symbol="partialUpdateHeartRate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="14" lineNum="164" parent="globals/MyWatchFace" pc="268437711" symbol="partialUpdateHeartRate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="14" lineNum="166" parent="globals/MyWatchFace" pc="268437729" symbol="partialUpdateHeartRate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="14" lineNum="167" parent="globals/MyWatchFace" pc="268437741" symbol="partialUpdateHeartRate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="14" lineNum="170" parent="globals/MyWatchFace" pc="268437749" symbol="partialUpdateHeartRate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="14" lineNum="171" parent="globals/MyWatchFace" pc="268437761" symbol="partialUpdateHeartRate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="14" lineNum="174" parent="globals/MyWatchFace" pc="268437801" symbol="partialUpdateHeartRate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="14" lineNum="176" parent="globals/MyWatchFace" pc="268437814" symbol="partialUpdateHeartRate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="15" lineNum="92" parent="globals/MyWatchFace" pc="268437823" symbol="updateActivityData"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="15" lineNum="93" parent="globals/MyWatchFace" pc="268437826" symbol="updateActivityData"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="15" lineNum="95" parent="globals/MyWatchFace" pc="268437838" symbol="updateActivityData"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="15" lineNum="96" parent="globals/MyWatchFace" pc="268437844" symbol="updateActivityData"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="15" lineNum="96" parent="globals/MyWatchFace" pc="268437855" symbol="updateActivityData"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="15" lineNum="97" parent="globals/MyWatchFace" pc="268437872" symbol="updateActivityData"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="15" lineNum="97" parent="globals/MyWatchFace" pc="268437883" symbol="updateActivityData"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="15" lineNum="98" parent="globals/MyWatchFace" pc="268437900" symbol="updateActivityData"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="15" lineNum="98" parent="globals/MyWatchFace" pc="268437911" symbol="updateActivityData"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="15" lineNum="99" parent="globals/MyWatchFace" pc="268437934" symbol="updateActivityData"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="15" lineNum="99" parent="globals/MyWatchFace" pc="268437945" symbol="updateActivityData"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="15" lineNum="100" parent="globals/MyWatchFace" pc="268437962" symbol="updateActivityData"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="15" lineNum="100" parent="globals/MyWatchFace" pc="268437973" symbol="updateActivityData"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="16" lineNum="179" parent="globals/MyWatchFace" pc="268437994" symbol="calculateMaxHrByAge"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="16" lineNum="181" parent="globals/MyWatchFace" pc="268437997" symbol="calculateMaxHrByAge"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="16" lineNum="184" parent="globals/MyWatchFace" pc="268438009" symbol="calculateMaxHrByAge"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="16" lineNum="185" parent="globals/MyWatchFace" pc="268438021" symbol="calculateMaxHrByAge"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="16" lineNum="186" parent="globals/MyWatchFace" pc="268438038" symbol="calculateMaxHrByAge"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="16" lineNum="189" parent="globals/MyWatchFace" pc="268438046" symbol="calculateMaxHrByAge"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="16" lineNum="190" parent="globals/MyWatchFace" pc="268438049" symbol="calculateMaxHrByAge"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="16" lineNum="191" parent="globals/MyWatchFace" pc="268438059" symbol="calculateMaxHrByAge"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="16" lineNum="195" parent="globals/MyWatchFace" pc="268438073" symbol="calculateMaxHrByAge"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="16" lineNum="197" parent="globals/MyWatchFace" pc="268438081" symbol="calculateMaxHrByAge"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="17" lineNum="74" parent="globals/MyWatchFace" pc="268438084" symbol="onPartialUpdate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="17" lineNum="75" parent="globals/MyWatchFace" pc="268438086" symbol="onPartialUpdate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="17" lineNum="76" parent="globals/MyWatchFace" pc="268438097" symbol="onPartialUpdate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="18" lineNum="45" parent="globals/MyWatchFace" pc="268438109" symbol="onEnterSleep"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="18" lineNum="46" parent="globals/MyWatchFace" pc="268438111" symbol="onEnterSleep"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="18" lineNum="47" parent="globals/MyWatchFace" pc="268438123" symbol="onEnterSleep"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="19" lineNum="339" parent="globals/MyWatchFace" pc="268438135" symbol="drawBattery"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="19" lineNum="340" parent="globals/MyWatchFace" pc="268438138" symbol="drawBattery"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="19" lineNum="342" parent="globals/MyWatchFace" pc="268438155" symbol="drawBattery"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="19" lineNum="343" parent="globals/MyWatchFace" pc="268438171" symbol="drawBattery"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="19" lineNum="344" parent="globals/MyWatchFace" pc="268438195" symbol="drawBattery"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="19" lineNum="345" parent="globals/MyWatchFace" pc="268438207" symbol="drawBattery"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="19" lineNum="346" parent="globals/MyWatchFace" pc="268438213" symbol="drawBattery"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="19" lineNum="347" parent="globals/MyWatchFace" pc="268438222" symbol="drawBattery"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="19" lineNum="350" parent="globals/MyWatchFace" pc="268438237" symbol="drawBattery"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="19" lineNum="351" parent="globals/MyWatchFace" pc="268438246" symbol="drawBattery"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="19" lineNum="352" parent="globals/MyWatchFace" pc="268438276" symbol="drawBattery"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="19" lineNum="354" parent="globals/MyWatchFace" pc="268438306" symbol="drawBattery"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="19" lineNum="356" parent="globals/MyWatchFace" pc="268438327" symbol="drawBattery"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="19" lineNum="365" parent="globals/MyWatchFace" pc="268438348" symbol="drawBattery"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="20" lineNum="69" parent="globals/MyWatchFace" pc="268438373" symbol="initialize"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="20" lineNum="70" parent="globals/MyWatchFace" pc="268438375" symbol="initialize"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="20" lineNum="71" parent="globals/MyWatchFace" pc="268438387" symbol="initialize"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="21" lineNum="79" parent="globals/MyWatchFace" pc="268438417" symbol="onUpdate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="21" lineNum="81" parent="globals/MyWatchFace" pc="268438419" symbol="onUpdate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="21" lineNum="82" parent="globals/MyWatchFace" pc="268438431" symbol="onUpdate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="21" lineNum="84" parent="globals/MyWatchFace" pc="268438439" symbol="onUpdate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="21" lineNum="85" parent="globals/MyWatchFace" pc="268438450" symbol="onUpdate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="21" lineNum="86" parent="globals/MyWatchFace" pc="268438462" symbol="onUpdate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="21" lineNum="87" parent="globals/MyWatchFace" pc="268438473" symbol="onUpdate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="21" lineNum="88" parent="globals/MyWatchFace" pc="268438484" symbol="onUpdate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="21" lineNum="89" parent="globals/MyWatchFace" pc="268438495" symbol="onUpdate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="22" lineNum="238" parent="globals/MyWatchFace" pc="268438507" symbol="drawDate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="22" lineNum="240" parent="globals/MyWatchFace" pc="268438510" symbol="drawDate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="22" lineNum="241" parent="globals/MyWatchFace" pc="268438522" symbol="drawDate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="22" lineNum="245" parent="globals/MyWatchFace" pc="268438540" symbol="drawDate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="22" lineNum="247" parent="globals/MyWatchFace" pc="268438572" symbol="drawDate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="22" lineNum="250" parent="globals/MyWatchFace" pc="268438613" symbol="drawDate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="22" lineNum="251" parent="globals/MyWatchFace" pc="268438630" symbol="drawDate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="22" lineNum="252" parent="globals/MyWatchFace" pc="268438651" symbol="drawDate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="22" lineNum="255" parent="globals/MyWatchFace" pc="268438672" symbol="drawDate"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\HeartRateHelpers.mc" id="23" lineNum="2" parent="globals/HeartRateHelpers" pc="268438690" symbol="getHeartRateMessage"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\HeartRateHelpers.mc" id="23" lineNum="3" parent="globals/HeartRateHelpers" pc="268438701" symbol="getHeartRateMessage"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\HeartRateHelpers.mc" id="23" lineNum="3" parent="globals/HeartRateHelpers" pc="268438714" symbol="getHeartRateMessage"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\HeartRateHelpers.mc" id="23" lineNum="6" parent="globals/HeartRateHelpers" pc="268438723" symbol="getHeartRateMessage"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\HeartRateHelpers.mc" id="23" lineNum="9" parent="globals/HeartRateHelpers" pc="268438743" symbol="getHeartRateMessage"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\HeartRateHelpers.mc" id="23" lineNum="9" parent="globals/HeartRateHelpers" pc="268438751" symbol="getHeartRateMessage"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\HeartRateHelpers.mc" id="23" lineNum="10" parent="globals/HeartRateHelpers" pc="268438760" symbol="getHeartRateMessage"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\HeartRateHelpers.mc" id="23" lineNum="10" parent="globals/HeartRateHelpers" pc="268438768" symbol="getHeartRateMessage"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\HeartRateHelpers.mc" id="23" lineNum="11" parent="globals/HeartRateHelpers" pc="268438777" symbol="getHeartRateMessage"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\HeartRateHelpers.mc" id="23" lineNum="11" parent="globals/HeartRateHelpers" pc="268438785" symbol="getHeartRateMessage"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\HeartRateHelpers.mc" id="23" lineNum="12" parent="globals/HeartRateHelpers" pc="268438794" symbol="getHeartRateMessage"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\HeartRateHelpers.mc" id="23" lineNum="12" parent="globals/HeartRateHelpers" pc="268438802" symbol="getHeartRateMessage"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\HeartRateHelpers.mc" id="23" lineNum="13" parent="globals/HeartRateHelpers" pc="268438811" symbol="getHeartRateMessage"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\HeartRateHelpers.mc" id="23" lineNum="13" parent="globals/HeartRateHelpers" pc="268438819" symbol="getHeartRateMessage"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\HeartRateHelpers.mc" id="23" lineNum="14" parent="globals/HeartRateHelpers" pc="268438828" symbol="getHeartRateMessage"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\ShapeHelpers.mc" id="24" lineNum="4" parent="globals/ShapeHelpers" pc="268438835" symbol="drawRunner"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\ShapeHelpers.mc" id="24" lineNum="5" parent="globals/ShapeHelpers" pc="268438845" symbol="drawRunner"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\ShapeHelpers.mc" id="24" lineNum="6" parent="globals/ShapeHelpers" pc="268438862" symbol="drawRunner"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\ShapeHelpers.mc" id="24" lineNum="9" parent="globals/ShapeHelpers" pc="268438874" symbol="drawRunner"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\ShapeHelpers.mc" id="24" lineNum="12" parent="globals/ShapeHelpers" pc="268438893" symbol="drawRunner"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\ShapeHelpers.mc" id="24" lineNum="15" parent="globals/ShapeHelpers" pc="268438920" symbol="drawRunner"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\ShapeHelpers.mc" id="24" lineNum="16" parent="globals/ShapeHelpers" pc="268438950" symbol="drawRunner"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\ShapeHelpers.mc" id="24" lineNum="19" parent="globals/ShapeHelpers" pc="268438980" symbol="drawRunner"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\ShapeHelpers.mc" id="24" lineNum="20" parent="globals/ShapeHelpers" pc="268439010" symbol="drawRunner"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\ShapeHelpers.mc" id="24" lineNum="21" parent="globals/ShapeHelpers" pc="268439040" symbol="drawRunner"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="25" lineNum="16" parent="globals/MyProjectApp" pc="268439071" symbol="getInitialView"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="25" lineNum="17" parent="globals/MyProjectApp" pc="268439073" symbol="getInitialView"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="26" lineNum="11" parent="globals/MyProjectApp" pc="268439099" symbol="initialize"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="26" lineNum="12" parent="globals/MyProjectApp" pc="268439101" symbol="initialize"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\TimeHelpers.mc" id="27" lineNum="4" parent="globals/TimeHelpers" pc="268439114" symbol="getFormattedTime"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\TimeHelpers.mc" id="27" lineNum="6" parent="globals/TimeHelpers" pc="268439125" symbol="getFormattedTime"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\TimeHelpers.mc" id="27" lineNum="7" parent="globals/TimeHelpers" pc="268439133" symbol="getFormattedTime"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\TimeHelpers.mc" id="27" lineNum="8" parent="globals/TimeHelpers" pc="268439141" symbol="getFormattedTime"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\TimeHelpers.mc" id="27" lineNum="9" parent="globals/TimeHelpers" pc="268439151" symbol="getFormattedTime"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\TimeHelpers.mc" id="27" lineNum="10" parent="globals/TimeHelpers" pc="268439158" symbol="getFormattedTime"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\TimeHelpers.mc" id="27" lineNum="14" parent="globals/TimeHelpers" pc="268439165" symbol="getFormattedTime"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\TimeHelpers.mc" id="27" lineNum="19" parent="globals/TimeHelpers" pc="268439215" symbol="getFormattedTime"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="28" lineNum="77" parent="globals/WeatherHelpers" pc="268439218" symbol="drawSnow"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="28" lineNum="78" parent="globals/WeatherHelpers" pc="268439228" symbol="drawSnow"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="28" lineNum="79" parent="globals/WeatherHelpers" pc="268439245" symbol="drawSnow"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="28" lineNum="80" parent="globals/WeatherHelpers" pc="268439257" symbol="drawSnow"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="28" lineNum="81" parent="globals/WeatherHelpers" pc="268439264" symbol="drawSnow"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="28" lineNum="83" parent="globals/WeatherHelpers" pc="268439280" symbol="drawSnow"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="28" lineNum="84" parent="globals/WeatherHelpers" pc="268439287" symbol="drawSnow"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="28" lineNum="85" parent="globals/WeatherHelpers" pc="268439294" symbol="drawSnow"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="28" lineNum="87" parent="globals/WeatherHelpers" pc="268439310" symbol="drawSnow"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="28" lineNum="88" parent="globals/WeatherHelpers" pc="268439317" symbol="drawSnow"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="28" lineNum="89" parent="globals/WeatherHelpers" pc="268439324" symbol="drawSnow"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="28" lineNum="91" parent="globals/WeatherHelpers" pc="268439340" symbol="drawSnow"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="28" lineNum="92" parent="globals/WeatherHelpers" pc="268439347" symbol="drawSnow"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="28" lineNum="93" parent="globals/WeatherHelpers" pc="268439354" symbol="drawSnow"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="29" lineNum="61" parent="globals/WeatherHelpers" pc="268439371" symbol="drawStorm"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="29" lineNum="62" parent="globals/WeatherHelpers" pc="268439382" symbol="drawStorm"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="29" lineNum="63" parent="globals/WeatherHelpers" pc="268439399" symbol="drawStorm"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="29" lineNum="64" parent="globals/WeatherHelpers" pc="268439411" symbol="drawStorm"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="29" lineNum="65" parent="globals/WeatherHelpers" pc="268439418" symbol="drawStorm"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="29" lineNum="67" parent="globals/WeatherHelpers" pc="268439425" symbol="drawStorm"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="29" lineNum="68" parent="globals/WeatherHelpers" pc="268439429" symbol="drawStorm"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="29" lineNum="71" parent="globals/WeatherHelpers" pc="268439436" symbol="drawStorm"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="29" lineNum="72" parent="globals/WeatherHelpers" pc="268439460" symbol="drawStorm"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="29" lineNum="73" parent="globals/WeatherHelpers" pc="268439490" symbol="drawStorm"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="29" lineNum="74" parent="globals/WeatherHelpers" pc="268439520" symbol="drawStorm"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="30" lineNum="96" parent="globals/WeatherHelpers" pc="268439533" symbol="tempFormatter"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="30" lineNum="97" parent="globals/WeatherHelpers" pc="268439544" symbol="tempFormatter"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="30" lineNum="99" parent="globals/WeatherHelpers" pc="268439556" symbol="tempFormatter"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="30" lineNum="102" parent="globals/WeatherHelpers" pc="268439580" symbol="tempFormatter"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="30" lineNum="103" parent="globals/WeatherHelpers" pc="268439593" symbol="tempFormatter"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="31" lineNum="27" parent="globals/WeatherHelpers" pc="268439615" symbol="drawMoon"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="31" lineNum="28" parent="globals/WeatherHelpers" pc="268439625" symbol="drawMoon"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="31" lineNum="29" parent="globals/WeatherHelpers" pc="268439642" symbol="drawMoon"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="31" lineNum="31" parent="globals/WeatherHelpers" pc="268439658" symbol="drawMoon"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="31" lineNum="32" parent="globals/WeatherHelpers" pc="268439671" symbol="drawMoon"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="32" lineNum="35" parent="globals/WeatherHelpers" pc="268439691" symbol="drawClouds"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="32" lineNum="36" parent="globals/WeatherHelpers" pc="268439701" symbol="drawClouds"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="32" lineNum="39" parent="globals/WeatherHelpers" pc="268439718" symbol="drawClouds"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="32" lineNum="42" parent="globals/WeatherHelpers" pc="268439740" symbol="drawClouds"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="32" lineNum="45" parent="globals/WeatherHelpers" pc="268439762" symbol="drawClouds"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="32" lineNum="48" parent="globals/WeatherHelpers" pc="268439781" symbol="drawClouds"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="33" lineNum="5" parent="globals/WeatherHelpers" pc="268439801" symbol="drawSun"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="33" lineNum="6" parent="globals/WeatherHelpers" pc="268439811" symbol="drawSun"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="33" lineNum="8" parent="globals/WeatherHelpers" pc="268439828" symbol="drawSun"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="33" lineNum="11" parent="globals/WeatherHelpers" pc="268439844" symbol="drawSun"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="33" lineNum="12" parent="globals/WeatherHelpers" pc="268439868" symbol="drawSun"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="33" lineNum="13" parent="globals/WeatherHelpers" pc="268439892" symbol="drawSun"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="33" lineNum="14" parent="globals/WeatherHelpers" pc="268439916" symbol="drawSun"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="33" lineNum="18" parent="globals/WeatherHelpers" pc="268439940" symbol="drawSun"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="33" lineNum="20" parent="globals/WeatherHelpers" pc="268439970" symbol="drawSun"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="33" lineNum="22" parent="globals/WeatherHelpers" pc="268440000" symbol="drawSun"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="33" lineNum="24" parent="globals/WeatherHelpers" pc="268440030" symbol="drawSun"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="34" lineNum="51" parent="globals/WeatherHelpers" pc="268440061" symbol="drawRain"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="34" lineNum="52" parent="globals/WeatherHelpers" pc="268440071" symbol="drawRain"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="34" lineNum="53" parent="globals/WeatherHelpers" pc="268440088" symbol="drawRain"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="34" lineNum="54" parent="globals/WeatherHelpers" pc="268440100" symbol="drawRain"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="34" lineNum="55" parent="globals/WeatherHelpers" pc="268440130" symbol="drawRain"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="34" lineNum="56" parent="globals/WeatherHelpers" pc="268440160" symbol="drawRain"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="34" lineNum="57" parent="globals/WeatherHelpers" pc="268440184" symbol="drawRain"/>
-<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="34" lineNum="58" parent="globals/WeatherHelpers" pc="268440214" symbol="drawRain"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="3" lineNum="9" parent="globals/MyProjectApp" pc="268435492" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="4" lineNum="135" parent="globals/MyWatchFace" pc="268435504" symbol="drawStepGoalBar"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="4" lineNum="137" parent="globals/MyWatchFace" pc="268435507" symbol="drawStepGoalBar"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="4" lineNum="138" parent="globals/MyWatchFace" pc="268435511" symbol="drawStepGoalBar"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="4" lineNum="139" parent="globals/MyWatchFace" pc="268435515" symbol="drawStepGoalBar"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="4" lineNum="140" parent="globals/MyWatchFace" pc="268435519" symbol="drawStepGoalBar"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="4" lineNum="143" parent="globals/MyWatchFace" pc="268435523" symbol="drawStepGoalBar"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="4" lineNum="144" parent="globals/MyWatchFace" pc="268435540" symbol="drawStepGoalBar"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="4" lineNum="144" parent="globals/MyWatchFace" pc="268435551" symbol="drawStepGoalBar"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="4" lineNum="147" parent="globals/MyWatchFace" pc="268435561" symbol="drawStepGoalBar"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="4" lineNum="148" parent="globals/MyWatchFace" pc="268435574" symbol="drawStepGoalBar"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="4" lineNum="152" parent="globals/MyWatchFace" pc="268435592" symbol="drawStepGoalBar"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="4" lineNum="153" parent="globals/MyWatchFace" pc="268435609" symbol="drawStepGoalBar"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="4" lineNum="154" parent="globals/MyWatchFace" pc="268435622" symbol="drawStepGoalBar"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="5" lineNum="353" parent="globals/MyWatchFace" pc="268435647" symbol="partialUpdateSeconds"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="5" lineNum="354" parent="globals/MyWatchFace" pc="268435650" symbol="partialUpdateSeconds"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="5" lineNum="357" parent="globals/MyWatchFace" pc="268435662" symbol="partialUpdateSeconds"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="5" lineNum="358" parent="globals/MyWatchFace" pc="268435666" symbol="partialUpdateSeconds"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="5" lineNum="359" parent="globals/MyWatchFace" pc="268435670" symbol="partialUpdateSeconds"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="5" lineNum="360" parent="globals/MyWatchFace" pc="268435674" symbol="partialUpdateSeconds"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="5" lineNum="361" parent="globals/MyWatchFace" pc="268435678" symbol="partialUpdateSeconds"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="5" lineNum="365" parent="globals/MyWatchFace" pc="268435682" symbol="partialUpdateSeconds"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="5" lineNum="373" parent="globals/MyWatchFace" pc="268435718" symbol="partialUpdateSeconds"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="5" lineNum="374" parent="globals/MyWatchFace" pc="268435730" symbol="partialUpdateSeconds"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="5" lineNum="377" parent="globals/MyWatchFace" pc="268435738" symbol="partialUpdateSeconds"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="5" lineNum="378" parent="globals/MyWatchFace" pc="268435755" symbol="partialUpdateSeconds"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="5" lineNum="381" parent="globals/MyWatchFace" pc="268435773" symbol="partialUpdateSeconds"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="5" lineNum="382" parent="globals/MyWatchFace" pc="268435786" symbol="partialUpdateSeconds"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="5" lineNum="383" parent="globals/MyWatchFace" pc="268435807" symbol="partialUpdateSeconds"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="5" lineNum="392" parent="globals/MyWatchFace" pc="268435838" symbol="partialUpdateSeconds"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="6" lineNum="103" parent="globals/MyWatchFace" pc="268435847" symbol="drawActivityData"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="6" lineNum="104" parent="globals/MyWatchFace" pc="268435850" symbol="drawActivityData"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="6" lineNum="105" parent="globals/MyWatchFace" pc="268435867" symbol="drawActivityData"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="6" lineNum="106" parent="globals/MyWatchFace" pc="268435871" symbol="drawActivityData"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="6" lineNum="108" parent="globals/MyWatchFace" pc="268435875" symbol="drawActivityData"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="6" lineNum="109" parent="globals/MyWatchFace" pc="268435892" symbol="drawActivityData"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="6" lineNum="110" parent="globals/MyWatchFace" pc="268435917" symbol="drawActivityData"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="6" lineNum="111" parent="globals/MyWatchFace" pc="268435942" symbol="drawActivityData"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="6" lineNum="112" parent="globals/MyWatchFace" pc="268435968" symbol="drawActivityData"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="6" lineNum="113" parent="globals/MyWatchFace" pc="268435993" symbol="drawActivityData"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="6" lineNum="115" parent="globals/MyWatchFace" pc="268436018" symbol="drawActivityData"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="6" lineNum="116" parent="globals/MyWatchFace" pc="268436022" symbol="drawActivityData"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="6" lineNum="117" parent="globals/MyWatchFace" pc="268436026" symbol="drawActivityData"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="6" lineNum="120" parent="globals/MyWatchFace" pc="268436030" symbol="drawActivityData"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="6" lineNum="121" parent="globals/MyWatchFace" pc="268436047" symbol="drawActivityData"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="6" lineNum="124" parent="globals/MyWatchFace" pc="268436085" symbol="drawActivityData"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="6" lineNum="125" parent="globals/MyWatchFace" pc="268436102" symbol="drawActivityData"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="6" lineNum="128" parent="globals/MyWatchFace" pc="268436133" symbol="drawActivityData"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="7" lineNum="395" parent="globals/MyWatchFace" pc="268436155" symbol="drawTime"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="7" lineNum="396" parent="globals/MyWatchFace" pc="268436158" symbol="drawTime"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="7" lineNum="398" parent="globals/MyWatchFace" pc="268436175" symbol="drawTime"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="7" lineNum="399" parent="globals/MyWatchFace" pc="268436187" symbol="drawTime"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="7" lineNum="402" parent="globals/MyWatchFace" pc="268436203" symbol="drawTime"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="7" lineNum="411" parent="globals/MyWatchFace" pc="268436231" symbol="drawTime"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="7" lineNum="414" parent="globals/MyWatchFace" pc="268436248" symbol="drawTime"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="7" lineNum="415" parent="globals/MyWatchFace" pc="268436266" symbol="drawTime"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="7" lineNum="417" parent="globals/MyWatchFace" pc="268436279" symbol="drawTime"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="7" lineNum="418" parent="globals/MyWatchFace" pc="268436300" symbol="drawTime"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="7" lineNum="426" parent="globals/MyWatchFace" pc="268436330" symbol="drawTime"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="7" lineNum="428" parent="globals/MyWatchFace" pc="268436347" symbol="drawTime"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="7" lineNum="431" parent="globals/MyWatchFace" pc="268436365" symbol="drawTime"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="7" lineNum="434" parent="globals/MyWatchFace" pc="268436384" symbol="drawTime"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="236" parent="globals/MyWatchFace" pc="268436402" symbol="drawWeather"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="237" parent="globals/MyWatchFace" pc="268436405" symbol="drawWeather"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="239" parent="globals/MyWatchFace" pc="268436421" symbol="drawWeather"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="240" parent="globals/MyWatchFace" pc="268436445" symbol="drawWeather"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="241" parent="globals/MyWatchFace" pc="268436457" symbol="drawWeather"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="242" parent="globals/MyWatchFace" pc="268436463" symbol="drawWeather"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="243" parent="globals/MyWatchFace" pc="268436472" symbol="drawWeather"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="246" parent="globals/MyWatchFace" pc="268436487" symbol="drawWeather"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="248" parent="globals/MyWatchFace" pc="268436504" symbol="drawWeather"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="250" parent="globals/MyWatchFace" pc="268436513" symbol="drawWeather"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="251" parent="globals/MyWatchFace" pc="268436525" symbol="drawWeather"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="252" parent="globals/MyWatchFace" pc="268436551" symbol="drawWeather"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="255" parent="globals/MyWatchFace" pc="268436577" symbol="drawWeather"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="258" parent="globals/MyWatchFace" pc="268436607" symbol="drawWeather"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="259" parent="globals/MyWatchFace" pc="268436638" symbol="drawWeather"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="261" parent="globals/MyWatchFace" pc="268436643" symbol="drawWeather"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="264" parent="globals/MyWatchFace" pc="268436665" symbol="drawWeather"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="267" parent="globals/MyWatchFace" pc="268436687" symbol="drawWeather"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="271" parent="globals/MyWatchFace" pc="268436735" symbol="drawWeather"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="273" parent="globals/MyWatchFace" pc="268436757" symbol="drawWeather"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="274" parent="globals/MyWatchFace" pc="268436773" symbol="drawWeather"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="276" parent="globals/MyWatchFace" pc="268436795" symbol="drawWeather"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="277" parent="globals/MyWatchFace" pc="268436811" symbol="drawWeather"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="279" parent="globals/MyWatchFace" pc="268436833" symbol="drawWeather"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="281" parent="globals/MyWatchFace" pc="268436849" symbol="drawWeather"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="282" parent="globals/MyWatchFace" pc="268436868" symbol="drawWeather"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="286" parent="globals/MyWatchFace" pc="268436890" symbol="drawWeather"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="287" parent="globals/MyWatchFace" pc="268436894" symbol="drawWeather"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="289" parent="globals/MyWatchFace" pc="268436898" symbol="drawWeather"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="290" parent="globals/MyWatchFace" pc="268436910" symbol="drawWeather"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="291" parent="globals/MyWatchFace" pc="268436937" symbol="drawWeather"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="292" parent="globals/MyWatchFace" pc="268436964" symbol="drawWeather"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="295" parent="globals/MyWatchFace" pc="268436991" symbol="drawWeather"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="297" parent="globals/MyWatchFace" pc="268437021" symbol="drawWeather"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="298" parent="globals/MyWatchFace" pc="268437057" symbol="drawWeather"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="301" parent="globals/MyWatchFace" pc="268437093" symbol="drawWeather"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="304" parent="globals/MyWatchFace" pc="268437110" symbol="drawWeather"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="307" parent="globals/MyWatchFace" pc="268437136" symbol="drawWeather"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="308" parent="globals/MyWatchFace" pc="268437141" symbol="drawWeather"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="309" parent="globals/MyWatchFace" pc="268437145" symbol="drawWeather"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="310" parent="globals/MyWatchFace" pc="268437164" symbol="drawWeather"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="311" parent="globals/MyWatchFace" pc="268437184" symbol="drawWeather"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="8" lineNum="312" parent="globals/MyWatchFace" pc="268437191" symbol="drawWeather"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="9" lineNum="63" parent="globals/MyWatchFace" pc="268437214" symbol="onHide"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="9" lineNum="65" parent="globals/MyWatchFace" pc="268437216" symbol="onHide"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="10" lineNum="178" parent="globals/MyWatchFace" pc="268437229" symbol="drawHeartRate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="10" lineNum="179" parent="globals/MyWatchFace" pc="268437232" symbol="drawHeartRate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="10" lineNum="180" parent="globals/MyWatchFace" pc="268437249" symbol="drawHeartRate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="10" lineNum="181" parent="globals/MyWatchFace" pc="268437255" symbol="drawHeartRate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="10" lineNum="182" parent="globals/MyWatchFace" pc="268437267" symbol="drawHeartRate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="10" lineNum="184" parent="globals/MyWatchFace" pc="268437274" symbol="drawHeartRate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="10" lineNum="185" parent="globals/MyWatchFace" pc="268437291" symbol="drawHeartRate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="10" lineNum="189" parent="globals/MyWatchFace" pc="268437312" symbol="drawHeartRate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="10" lineNum="190" parent="globals/MyWatchFace" pc="268437316" symbol="drawHeartRate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="10" lineNum="191" parent="globals/MyWatchFace" pc="268437320" symbol="drawHeartRate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="10" lineNum="193" parent="globals/MyWatchFace" pc="268437340" symbol="drawHeartRate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="10" lineNum="194" parent="globals/MyWatchFace" pc="268437347" symbol="drawHeartRate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="10" lineNum="196" parent="globals/MyWatchFace" pc="268437354" symbol="drawHeartRate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="10" lineNum="197" parent="globals/MyWatchFace" pc="268437373" symbol="drawHeartRate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="10" lineNum="201" parent="globals/MyWatchFace" pc="268437392" symbol="drawHeartRate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="10" lineNum="208" parent="globals/MyWatchFace" pc="268437472" symbol="drawHeartRate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="10" lineNum="209" parent="globals/MyWatchFace" pc="268437484" symbol="drawHeartRate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="10" lineNum="210" parent="globals/MyWatchFace" pc="268437508" symbol="drawHeartRate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="10" lineNum="211" parent="globals/MyWatchFace" pc="268437526" symbol="drawHeartRate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="10" lineNum="212" parent="globals/MyWatchFace" pc="268437538" symbol="drawHeartRate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="11" lineNum="50" parent="globals/MyWatchFace" pc="268437561" symbol="onExitSleep"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="11" lineNum="51" parent="globals/MyWatchFace" pc="268437563" symbol="onExitSleep"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="11" lineNum="52" parent="globals/MyWatchFace" pc="268437570" symbol="onExitSleep"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="11" lineNum="53" parent="globals/MyWatchFace" pc="268437602" symbol="onExitSleep"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="12" lineNum="131" parent="globals/MyWatchFace" pc="268437614" symbol="drawRecovery"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="12" lineNum="132" parent="globals/MyWatchFace" pc="268437616" symbol="drawRecovery"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="13" lineNum="56" parent="globals/MyWatchFace" pc="268437643" symbol="onShow"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="13" lineNum="57" parent="globals/MyWatchFace" pc="268437645" symbol="onShow"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="13" lineNum="59" parent="globals/MyWatchFace" pc="268437652" symbol="onShow"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="13" lineNum="60" parent="globals/MyWatchFace" pc="268437684" symbol="onShow"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="14" lineNum="157" parent="globals/MyWatchFace" pc="268437696" symbol="partialUpdateHeartRate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="14" lineNum="159" parent="globals/MyWatchFace" pc="268437699" symbol="partialUpdateHeartRate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="14" lineNum="160" parent="globals/MyWatchFace" pc="268437703" symbol="partialUpdateHeartRate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="14" lineNum="161" parent="globals/MyWatchFace" pc="268437707" symbol="partialUpdateHeartRate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="14" lineNum="162" parent="globals/MyWatchFace" pc="268437711" symbol="partialUpdateHeartRate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="14" lineNum="163" parent="globals/MyWatchFace" pc="268437715" symbol="partialUpdateHeartRate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="14" lineNum="165" parent="globals/MyWatchFace" pc="268437733" symbol="partialUpdateHeartRate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="14" lineNum="166" parent="globals/MyWatchFace" pc="268437745" symbol="partialUpdateHeartRate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="14" lineNum="169" parent="globals/MyWatchFace" pc="268437753" symbol="partialUpdateHeartRate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="14" lineNum="170" parent="globals/MyWatchFace" pc="268437765" symbol="partialUpdateHeartRate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="14" lineNum="173" parent="globals/MyWatchFace" pc="268437805" symbol="partialUpdateHeartRate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="14" lineNum="175" parent="globals/MyWatchFace" pc="268437818" symbol="partialUpdateHeartRate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="15" lineNum="91" parent="globals/MyWatchFace" pc="268437827" symbol="updateActivityData"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="15" lineNum="92" parent="globals/MyWatchFace" pc="268437830" symbol="updateActivityData"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="15" lineNum="94" parent="globals/MyWatchFace" pc="268437842" symbol="updateActivityData"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="15" lineNum="95" parent="globals/MyWatchFace" pc="268437848" symbol="updateActivityData"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="15" lineNum="95" parent="globals/MyWatchFace" pc="268437859" symbol="updateActivityData"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="15" lineNum="96" parent="globals/MyWatchFace" pc="268437876" symbol="updateActivityData"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="15" lineNum="96" parent="globals/MyWatchFace" pc="268437887" symbol="updateActivityData"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="15" lineNum="97" parent="globals/MyWatchFace" pc="268437904" symbol="updateActivityData"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="15" lineNum="97" parent="globals/MyWatchFace" pc="268437915" symbol="updateActivityData"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="15" lineNum="98" parent="globals/MyWatchFace" pc="268437938" symbol="updateActivityData"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="15" lineNum="98" parent="globals/MyWatchFace" pc="268437949" symbol="updateActivityData"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="15" lineNum="99" parent="globals/MyWatchFace" pc="268437966" symbol="updateActivityData"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="15" lineNum="99" parent="globals/MyWatchFace" pc="268437977" symbol="updateActivityData"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="16" lineNum="73" parent="globals/MyWatchFace" pc="268437998" symbol="onPartialUpdate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="16" lineNum="74" parent="globals/MyWatchFace" pc="268438000" symbol="onPartialUpdate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="16" lineNum="75" parent="globals/MyWatchFace" pc="268438011" symbol="onPartialUpdate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="17" lineNum="44" parent="globals/MyWatchFace" pc="268438023" symbol="onEnterSleep"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="17" lineNum="45" parent="globals/MyWatchFace" pc="268438025" symbol="onEnterSleep"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="17" lineNum="46" parent="globals/MyWatchFace" pc="268438037" symbol="onEnterSleep"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="18" lineNum="317" parent="globals/MyWatchFace" pc="268438049" symbol="drawBattery"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="18" lineNum="318" parent="globals/MyWatchFace" pc="268438052" symbol="drawBattery"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="18" lineNum="320" parent="globals/MyWatchFace" pc="268438069" symbol="drawBattery"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="18" lineNum="321" parent="globals/MyWatchFace" pc="268438085" symbol="drawBattery"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="18" lineNum="322" parent="globals/MyWatchFace" pc="268438109" symbol="drawBattery"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="18" lineNum="323" parent="globals/MyWatchFace" pc="268438121" symbol="drawBattery"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="18" lineNum="324" parent="globals/MyWatchFace" pc="268438127" symbol="drawBattery"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="18" lineNum="325" parent="globals/MyWatchFace" pc="268438136" symbol="drawBattery"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="18" lineNum="328" parent="globals/MyWatchFace" pc="268438151" symbol="drawBattery"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="18" lineNum="329" parent="globals/MyWatchFace" pc="268438160" symbol="drawBattery"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="18" lineNum="330" parent="globals/MyWatchFace" pc="268438190" symbol="drawBattery"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="18" lineNum="332" parent="globals/MyWatchFace" pc="268438220" symbol="drawBattery"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="18" lineNum="334" parent="globals/MyWatchFace" pc="268438241" symbol="drawBattery"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="18" lineNum="343" parent="globals/MyWatchFace" pc="268438262" symbol="drawBattery"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="19" lineNum="68" parent="globals/MyWatchFace" pc="268438287" symbol="initialize"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="19" lineNum="69" parent="globals/MyWatchFace" pc="268438289" symbol="initialize"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="19" lineNum="70" parent="globals/MyWatchFace" pc="268438301" symbol="initialize"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="20" lineNum="78" parent="globals/MyWatchFace" pc="268438331" symbol="onUpdate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="20" lineNum="80" parent="globals/MyWatchFace" pc="268438333" symbol="onUpdate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="20" lineNum="81" parent="globals/MyWatchFace" pc="268438345" symbol="onUpdate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="20" lineNum="83" parent="globals/MyWatchFace" pc="268438353" symbol="onUpdate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="20" lineNum="84" parent="globals/MyWatchFace" pc="268438364" symbol="onUpdate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="20" lineNum="85" parent="globals/MyWatchFace" pc="268438376" symbol="onUpdate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="20" lineNum="86" parent="globals/MyWatchFace" pc="268438387" symbol="onUpdate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="20" lineNum="87" parent="globals/MyWatchFace" pc="268438398" symbol="onUpdate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="20" lineNum="88" parent="globals/MyWatchFace" pc="268438409" symbol="onUpdate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="21" lineNum="216" parent="globals/MyWatchFace" pc="268438421" symbol="drawDate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="21" lineNum="218" parent="globals/MyWatchFace" pc="268438424" symbol="drawDate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="21" lineNum="219" parent="globals/MyWatchFace" pc="268438436" symbol="drawDate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="21" lineNum="223" parent="globals/MyWatchFace" pc="268438454" symbol="drawDate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="21" lineNum="225" parent="globals/MyWatchFace" pc="268438486" symbol="drawDate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="21" lineNum="228" parent="globals/MyWatchFace" pc="268438527" symbol="drawDate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="21" lineNum="229" parent="globals/MyWatchFace" pc="268438544" symbol="drawDate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="21" lineNum="230" parent="globals/MyWatchFace" pc="268438565" symbol="drawDate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="21" lineNum="233" parent="globals/MyWatchFace" pc="268438586" symbol="drawDate"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\HeartRateHelpers.mc" id="22" lineNum="5" parent="globals/HeartRateHelpers" pc="268438604" symbol="getHeartRateMessage"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\HeartRateHelpers.mc" id="22" lineNum="6" parent="globals/HeartRateHelpers" pc="268438615" symbol="getHeartRateMessage"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\HeartRateHelpers.mc" id="22" lineNum="6" parent="globals/HeartRateHelpers" pc="268438628" symbol="getHeartRateMessage"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\HeartRateHelpers.mc" id="22" lineNum="9" parent="globals/HeartRateHelpers" pc="268438637" symbol="getHeartRateMessage"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\HeartRateHelpers.mc" id="22" lineNum="12" parent="globals/HeartRateHelpers" pc="268438657" symbol="getHeartRateMessage"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\HeartRateHelpers.mc" id="22" lineNum="12" parent="globals/HeartRateHelpers" pc="268438665" symbol="getHeartRateMessage"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\HeartRateHelpers.mc" id="22" lineNum="13" parent="globals/HeartRateHelpers" pc="268438674" symbol="getHeartRateMessage"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\HeartRateHelpers.mc" id="22" lineNum="13" parent="globals/HeartRateHelpers" pc="268438682" symbol="getHeartRateMessage"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\HeartRateHelpers.mc" id="22" lineNum="14" parent="globals/HeartRateHelpers" pc="268438691" symbol="getHeartRateMessage"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\HeartRateHelpers.mc" id="22" lineNum="14" parent="globals/HeartRateHelpers" pc="268438699" symbol="getHeartRateMessage"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\HeartRateHelpers.mc" id="22" lineNum="15" parent="globals/HeartRateHelpers" pc="268438708" symbol="getHeartRateMessage"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\HeartRateHelpers.mc" id="22" lineNum="15" parent="globals/HeartRateHelpers" pc="268438716" symbol="getHeartRateMessage"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\HeartRateHelpers.mc" id="22" lineNum="16" parent="globals/HeartRateHelpers" pc="268438725" symbol="getHeartRateMessage"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\HeartRateHelpers.mc" id="22" lineNum="16" parent="globals/HeartRateHelpers" pc="268438733" symbol="getHeartRateMessage"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\HeartRateHelpers.mc" id="22" lineNum="17" parent="globals/HeartRateHelpers" pc="268438742" symbol="getHeartRateMessage"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\HeartRateHelpers.mc" id="23" lineNum="20" parent="globals/HeartRateHelpers" pc="268438749" symbol="calculateMaxHrByAge"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\HeartRateHelpers.mc" id="23" lineNum="22" parent="globals/HeartRateHelpers" pc="268438760" symbol="calculateMaxHrByAge"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\HeartRateHelpers.mc" id="23" lineNum="25" parent="globals/HeartRateHelpers" pc="268438772" symbol="calculateMaxHrByAge"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\HeartRateHelpers.mc" id="23" lineNum="26" parent="globals/HeartRateHelpers" pc="268438784" symbol="calculateMaxHrByAge"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\HeartRateHelpers.mc" id="23" lineNum="27" parent="globals/HeartRateHelpers" pc="268438801" symbol="calculateMaxHrByAge"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\HeartRateHelpers.mc" id="23" lineNum="30" parent="globals/HeartRateHelpers" pc="268438809" symbol="calculateMaxHrByAge"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\HeartRateHelpers.mc" id="23" lineNum="31" parent="globals/HeartRateHelpers" pc="268438812" symbol="calculateMaxHrByAge"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\HeartRateHelpers.mc" id="23" lineNum="32" parent="globals/HeartRateHelpers" pc="268438822" symbol="calculateMaxHrByAge"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\HeartRateHelpers.mc" id="23" lineNum="36" parent="globals/HeartRateHelpers" pc="268438836" symbol="calculateMaxHrByAge"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\HeartRateHelpers.mc" id="23" lineNum="38" parent="globals/HeartRateHelpers" pc="268438844" symbol="calculateMaxHrByAge"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\ShapeHelpers.mc" id="24" lineNum="4" parent="globals/ShapeHelpers" pc="268438847" symbol="drawRunner"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\ShapeHelpers.mc" id="24" lineNum="5" parent="globals/ShapeHelpers" pc="268438857" symbol="drawRunner"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\ShapeHelpers.mc" id="24" lineNum="6" parent="globals/ShapeHelpers" pc="268438874" symbol="drawRunner"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\ShapeHelpers.mc" id="24" lineNum="9" parent="globals/ShapeHelpers" pc="268438886" symbol="drawRunner"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\ShapeHelpers.mc" id="24" lineNum="12" parent="globals/ShapeHelpers" pc="268438905" symbol="drawRunner"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\ShapeHelpers.mc" id="24" lineNum="15" parent="globals/ShapeHelpers" pc="268438932" symbol="drawRunner"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\ShapeHelpers.mc" id="24" lineNum="16" parent="globals/ShapeHelpers" pc="268438962" symbol="drawRunner"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\ShapeHelpers.mc" id="24" lineNum="19" parent="globals/ShapeHelpers" pc="268438992" symbol="drawRunner"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\ShapeHelpers.mc" id="24" lineNum="20" parent="globals/ShapeHelpers" pc="268439022" symbol="drawRunner"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\ShapeHelpers.mc" id="24" lineNum="21" parent="globals/ShapeHelpers" pc="268439052" symbol="drawRunner"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="25" lineNum="15" parent="globals/MyProjectApp" pc="268439083" symbol="getInitialView"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="25" lineNum="16" parent="globals/MyProjectApp" pc="268439085" symbol="getInitialView"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="26" lineNum="10" parent="globals/MyProjectApp" pc="268439111" symbol="initialize"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\MyWatchFace.mc" id="26" lineNum="11" parent="globals/MyProjectApp" pc="268439113" symbol="initialize"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\TimeHelpers.mc" id="27" lineNum="4" parent="globals/TimeHelpers" pc="268439126" symbol="getFormattedTime"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\TimeHelpers.mc" id="27" lineNum="6" parent="globals/TimeHelpers" pc="268439137" symbol="getFormattedTime"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\TimeHelpers.mc" id="27" lineNum="7" parent="globals/TimeHelpers" pc="268439145" symbol="getFormattedTime"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\TimeHelpers.mc" id="27" lineNum="8" parent="globals/TimeHelpers" pc="268439153" symbol="getFormattedTime"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\TimeHelpers.mc" id="27" lineNum="9" parent="globals/TimeHelpers" pc="268439163" symbol="getFormattedTime"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\TimeHelpers.mc" id="27" lineNum="10" parent="globals/TimeHelpers" pc="268439170" symbol="getFormattedTime"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\TimeHelpers.mc" id="27" lineNum="14" parent="globals/TimeHelpers" pc="268439177" symbol="getFormattedTime"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\TimeHelpers.mc" id="27" lineNum="19" parent="globals/TimeHelpers" pc="268439227" symbol="getFormattedTime"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="28" lineNum="77" parent="globals/WeatherHelpers" pc="268439230" symbol="drawSnow"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="28" lineNum="78" parent="globals/WeatherHelpers" pc="268439240" symbol="drawSnow"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="28" lineNum="79" parent="globals/WeatherHelpers" pc="268439257" symbol="drawSnow"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="28" lineNum="80" parent="globals/WeatherHelpers" pc="268439269" symbol="drawSnow"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="28" lineNum="81" parent="globals/WeatherHelpers" pc="268439276" symbol="drawSnow"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="28" lineNum="83" parent="globals/WeatherHelpers" pc="268439292" symbol="drawSnow"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="28" lineNum="84" parent="globals/WeatherHelpers" pc="268439299" symbol="drawSnow"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="28" lineNum="85" parent="globals/WeatherHelpers" pc="268439306" symbol="drawSnow"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="28" lineNum="87" parent="globals/WeatherHelpers" pc="268439322" symbol="drawSnow"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="28" lineNum="88" parent="globals/WeatherHelpers" pc="268439329" symbol="drawSnow"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="28" lineNum="89" parent="globals/WeatherHelpers" pc="268439336" symbol="drawSnow"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="28" lineNum="91" parent="globals/WeatherHelpers" pc="268439352" symbol="drawSnow"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="28" lineNum="92" parent="globals/WeatherHelpers" pc="268439359" symbol="drawSnow"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="28" lineNum="93" parent="globals/WeatherHelpers" pc="268439366" symbol="drawSnow"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="29" lineNum="61" parent="globals/WeatherHelpers" pc="268439383" symbol="drawStorm"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="29" lineNum="62" parent="globals/WeatherHelpers" pc="268439394" symbol="drawStorm"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="29" lineNum="63" parent="globals/WeatherHelpers" pc="268439411" symbol="drawStorm"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="29" lineNum="64" parent="globals/WeatherHelpers" pc="268439423" symbol="drawStorm"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="29" lineNum="65" parent="globals/WeatherHelpers" pc="268439430" symbol="drawStorm"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="29" lineNum="67" parent="globals/WeatherHelpers" pc="268439437" symbol="drawStorm"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="29" lineNum="68" parent="globals/WeatherHelpers" pc="268439441" symbol="drawStorm"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="29" lineNum="71" parent="globals/WeatherHelpers" pc="268439448" symbol="drawStorm"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="29" lineNum="72" parent="globals/WeatherHelpers" pc="268439472" symbol="drawStorm"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="29" lineNum="73" parent="globals/WeatherHelpers" pc="268439502" symbol="drawStorm"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="29" lineNum="74" parent="globals/WeatherHelpers" pc="268439532" symbol="drawStorm"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="30" lineNum="96" parent="globals/WeatherHelpers" pc="268439545" symbol="tempFormatter"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="30" lineNum="97" parent="globals/WeatherHelpers" pc="268439556" symbol="tempFormatter"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="30" lineNum="99" parent="globals/WeatherHelpers" pc="268439568" symbol="tempFormatter"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="30" lineNum="102" parent="globals/WeatherHelpers" pc="268439592" symbol="tempFormatter"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="30" lineNum="103" parent="globals/WeatherHelpers" pc="268439605" symbol="tempFormatter"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="31" lineNum="27" parent="globals/WeatherHelpers" pc="268439627" symbol="drawMoon"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="31" lineNum="28" parent="globals/WeatherHelpers" pc="268439637" symbol="drawMoon"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="31" lineNum="29" parent="globals/WeatherHelpers" pc="268439654" symbol="drawMoon"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="31" lineNum="31" parent="globals/WeatherHelpers" pc="268439670" symbol="drawMoon"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="31" lineNum="32" parent="globals/WeatherHelpers" pc="268439683" symbol="drawMoon"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="32" lineNum="35" parent="globals/WeatherHelpers" pc="268439703" symbol="drawClouds"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="32" lineNum="36" parent="globals/WeatherHelpers" pc="268439713" symbol="drawClouds"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="32" lineNum="39" parent="globals/WeatherHelpers" pc="268439730" symbol="drawClouds"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="32" lineNum="42" parent="globals/WeatherHelpers" pc="268439752" symbol="drawClouds"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="32" lineNum="45" parent="globals/WeatherHelpers" pc="268439774" symbol="drawClouds"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="32" lineNum="48" parent="globals/WeatherHelpers" pc="268439793" symbol="drawClouds"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="33" lineNum="5" parent="globals/WeatherHelpers" pc="268439813" symbol="drawSun"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="33" lineNum="6" parent="globals/WeatherHelpers" pc="268439823" symbol="drawSun"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="33" lineNum="8" parent="globals/WeatherHelpers" pc="268439840" symbol="drawSun"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="33" lineNum="11" parent="globals/WeatherHelpers" pc="268439856" symbol="drawSun"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="33" lineNum="12" parent="globals/WeatherHelpers" pc="268439880" symbol="drawSun"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="33" lineNum="13" parent="globals/WeatherHelpers" pc="268439904" symbol="drawSun"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="33" lineNum="14" parent="globals/WeatherHelpers" pc="268439928" symbol="drawSun"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="33" lineNum="18" parent="globals/WeatherHelpers" pc="268439952" symbol="drawSun"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="33" lineNum="20" parent="globals/WeatherHelpers" pc="268439982" symbol="drawSun"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="33" lineNum="22" parent="globals/WeatherHelpers" pc="268440012" symbol="drawSun"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="33" lineNum="24" parent="globals/WeatherHelpers" pc="268440042" symbol="drawSun"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="34" lineNum="51" parent="globals/WeatherHelpers" pc="268440073" symbol="drawRain"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="34" lineNum="52" parent="globals/WeatherHelpers" pc="268440083" symbol="drawRain"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="34" lineNum="53" parent="globals/WeatherHelpers" pc="268440100" symbol="drawRain"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="34" lineNum="54" parent="globals/WeatherHelpers" pc="268440112" symbol="drawRain"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="34" lineNum="55" parent="globals/WeatherHelpers" pc="268440142" symbol="drawRain"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="34" lineNum="56" parent="globals/WeatherHelpers" pc="268440172" symbol="drawRain"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="34" lineNum="57" parent="globals/WeatherHelpers" pc="268440196" symbol="drawRain"/>
+<entry filename="C:\\Users\\codyp\\VSCodeProjects\\GarminWatchFace\\source\\WeatherHelpers.mc" id="34" lineNum="58" parent="globals/WeatherHelpers" pc="268440226" symbol="drawRain"/>
 </pcToLineNum>
 <symbolTable>
 <entry field="true" id="20" symbol="cachedSystemStats"/>
 <entry id="12" module="true" symbol="ShapeHelpers"/>
 <entry id="10" object="true" symbol="MyProjectApp"/>
-<entry id="26" method="true" symbol="drawHeartRate"/>
+<entry id="25" method="true" symbol="drawHeartRate"/>
 <entry id="8388639" module="true" symbol="Graphics"/>
 <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
-<entry id="25" method="true" symbol="drawDate"/>
-<entry id="30" method="true" symbol="drawWeather"/>
+<entry id="24" method="true" symbol="drawDate"/>
+<entry id="29" method="true" symbol="drawWeather"/>
 <entry field="true" id="21" symbol="cachedTimeToRecovery"/>
-<entry field="true" id="35" symbol="timer"/>
-<entry id="33" method="true" symbol="partialUpdateHeartRate"/>
+<entry field="true" id="34" symbol="timer"/>
+<entry id="32" method="true" symbol="partialUpdateHeartRate"/>
 <entry id="40" method="true" symbol="drawClouds"/>
-<entry field="true" id="31" symbol="lastSystemStatsFetchTime"/>
+<entry field="true" id="30" symbol="lastSystemStatsFetchTime"/>
 <entry id="8388924" module="true" symbol="Gregorian"/>
 <entry id="8388647" module="true" symbol="UserProfile"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-<entry id="23" method="true" symbol="drawActivityData"/>
+<entry id="22" method="true" symbol="drawActivityData"/>
 <entry id="42" method="true" symbol="drawRain"/>
 <entry id="41" method="true" symbol="drawMoon"/>
-<entry id="29" method="true" symbol="drawTime"/>
+<entry id="28" method="true" symbol="drawTime"/>
 <entry field="true" id="48" symbol="AppName"/>
 <entry id="6" module="true" symbol="globals/ShapeHelpers"/>
 <entry id="5" module="true" symbol="globals/Rez/Strings"/>
 <entry id="38" method="true" symbol="drawRunner"/>
 <entry id="8388631" module="true" symbol="Activity"/>
-<entry id="22" method="true" symbol="calculateMaxHrByAge"/>
+<entry id="36" method="true" symbol="calculateMaxHrByAge"/>
 <entry id="43" method="true" symbol="drawSnow"/>
 <entry id="8388648" module="true" symbol="WatchUi"/>
 <entry id="8390097" method="true" symbol="onPartialUpdate"/>
 <entry id="3" module="true" symbol="globals/Rez"/>
-<entry field="true" id="32" symbol="lastWeatherFetchTime"/>
+<entry field="true" id="31" symbol="lastWeatherFetchTime"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
 <entry id="39" method="true" symbol="getFormattedTime"/>
-<entry id="24" method="true" symbol="drawBattery"/>
+<entry id="23" method="true" symbol="drawBattery"/>
 <entry id="8389376" method="true" symbol="onEnterSleep"/>
 <entry id="7" module="true" symbol="globals/TimeHelpers"/>
 <entry field="true" id="17" symbol="cachedDistanceMiles"/>
@@ -362,10 +362,10 @@
 <entry id="14" module="true" symbol="WeatherHelpers"/>
 <entry field="true" id="15" symbol="cachedCalories"/>
 <entry id="8389377" method="true" symbol="onExitSleep"/>
-<entry id="27" method="true" symbol="drawRecovery"/>
+<entry id="26" method="true" symbol="drawRecovery"/>
 <entry id="8388645" module="true" symbol="Time"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
-<entry id="36" method="true" symbol="updateActivityData"/>
+<entry id="35" method="true" symbol="updateActivityData"/>
 <entry id="46" method="true" symbol="tempFormatter"/>
 <entry id="8388640" module="true" symbol="Lang"/>
 <entry id="8388610" symbol="statics"/>
@@ -374,12 +374,12 @@
 <entry id="8389350" module="true" symbol="globals"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry id="34" method="true" symbol="partialUpdateSeconds"/>
+<entry id="33" method="true" symbol="partialUpdateSeconds"/>
 <entry id="44" method="true" symbol="drawStorm"/>
 <entry field="true" id="18" symbol="cachedStepGoal"/>
 <entry field="true" id="19" symbol="cachedSteps"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
-<entry id="28" method="true" symbol="drawStepGoalBar"/>
+<entry id="27" method="true" symbol="drawStepGoalBar"/>
 <entry id="9" module="true" symbol="HeartRateHelpers"/>
 <entry id="2" module="true" symbol="globals/HeartRateHelpers"/>
 <entry id="13" module="true" symbol="TimeHelpers"/>
@@ -434,76 +434,76 @@
 <entry endPc="268437209" name="tempStr" stackId="14" startPc="268436513"/>
 <entry endPc="268437209" name="highStr" stackId="15" startPc="268436513"/>
 <entry endPc="268437209" name="lowStr" stackId="16" startPc="268436513"/>
-<entry arg="true" endPc="268437556" name="dc" stackId="1" startPc="268437229"/>
-<entry arg="true" endPc="268437556" name="hr" stackId="2" startPc="268437229"/>
+<entry arg="true" endPc="268437560" name="dc" stackId="1" startPc="268437229"/>
+<entry arg="true" endPc="268437560" name="hr" stackId="2" startPc="268437229"/>
 <entry endPc="268437308" name="info" stackId="3" startPc="268437255"/>
-<entry endPc="268437555" name="x" stackId="4" startPc="268437232"/>
-<entry endPc="268437555" name="y" stackId="5" startPc="268437232"/>
-<entry endPc="268437555" name="maxHr" stackId="6" startPc="268437232"/>
-<entry endPc="268437552" name="msg" stackId="7" startPc="268437504"/>
-<entry arg="true" endPc="268437638" name="dc" stackId="1" startPc="268437610"/>
-<entry arg="true" endPc="268437638" name="recoveryHours" stackId="2" startPc="268437610"/>
-<entry arg="true" endPc="268437638" name="x" stackId="3" startPc="268437610"/>
-<entry arg="true" endPc="268437638" name="y" stackId="4" startPc="268437610"/>
-<entry arg="true" endPc="268437822" name="dc" stackId="1" startPc="268437692"/>
-<entry endPc="268437821" name="x" stackId="2" startPc="268437695"/>
-<entry endPc="268437821" name="y" stackId="3" startPc="268437695"/>
-<entry endPc="268437821" name="width" stackId="4" startPc="268437695"/>
-<entry endPc="268437821" name="height" stackId="5" startPc="268437695"/>
-<entry endPc="268437821" name="info" stackId="6" startPc="268437695"/>
-<entry endPc="268437821" name="hr" stackId="7" startPc="268437695"/>
-<entry endPc="268437992" name="info" stackId="1" startPc="268437826"/>
-<entry endPc="268438083" name="profile" stackId="1" startPc="268437997"/>
-<entry endPc="268438083" name="now" stackId="2" startPc="268437997"/>
-<entry endPc="268438083" name="info" stackId="3" startPc="268437997"/>
-<entry endPc="268438083" name="currentYear" stackId="4" startPc="268437997"/>
-<entry endPc="268438083" name="age" stackId="5" startPc="268437997"/>
-<entry endPc="268438083" name="maxHr" stackId="6" startPc="268437997"/>
-<entry arg="true" endPc="268438108" name="dc" stackId="1" startPc="268438084"/>
-<entry arg="true" endPc="268438372" name="dc" stackId="1" startPc="268438135"/>
-<entry endPc="268438371" name="currentTime" stackId="2" startPc="268438138"/>
-<entry endPc="268438233" name="newStats" stackId="3" startPc="268438195"/>
-<entry endPc="268438368" name="battery" stackId="4" startPc="268438246"/>
-<entry endPc="268438368" name="batteryInDays" stackId="5" startPc="268438246"/>
-<entry arg="true" endPc="268438506" name="dc" stackId="1" startPc="268438417"/>
-<entry arg="true" endPc="268438689" name="dc" stackId="1" startPc="268438507"/>
-<entry endPc="268438688" name="now" stackId="2" startPc="268438510"/>
-<entry endPc="268438688" name="info" stackId="3" startPc="268438510"/>
-<entry endPc="268438688" name="dayOfWeek" stackId="4" startPc="268438510"/>
-<entry endPc="268438688" name="dayOfMonth" stackId="5" startPc="268438510"/>
-<entry arg="true" endPc="268438834" name="currentHr" stackId="1" startPc="268438690"/>
-<entry arg="true" endPc="268438834" name="maxHr" stackId="2" startPc="268438690"/>
-<entry endPc="268438833" name="percentage" stackId="3" startPc="268438701"/>
-<entry arg="true" endPc="268439070" name="dc" stackId="1" startPc="268438835"/>
-<entry arg="true" endPc="268439070" name="x" stackId="2" startPc="268438835"/>
-<entry arg="true" endPc="268439070" name="y" stackId="3" startPc="268438835"/>
-<entry arg="true" endPc="268439217" name="clockTime" stackId="1" startPc="268439114"/>
-<entry endPc="268439217" name="hour12" stackId="2" startPc="268439125"/>
-<entry endPc="268439217" name="timeString" stackId="3" startPc="268439125"/>
-<entry arg="true" endPc="268439370" name="dc" stackId="1" startPc="268439218"/>
-<entry arg="true" endPc="268439370" name="x" stackId="2" startPc="268439218"/>
-<entry arg="true" endPc="268439370" name="y" stackId="3" startPc="268439218"/>
-<entry arg="true" endPc="268439532" name="dc" stackId="1" startPc="268439371"/>
-<entry arg="true" endPc="268439532" name="x" stackId="2" startPc="268439371"/>
-<entry arg="true" endPc="268439532" name="y" stackId="3" startPc="268439371"/>
-<entry endPc="268439531" name="bx" stackId="4" startPc="268439382"/>
-<entry endPc="268439531" name="by" stackId="5" startPc="268439382"/>
-<entry arg="true" endPc="268439614" name="tempC" stackId="1" startPc="268439533"/>
-<entry arg="true" endPc="268439614" name="settings" stackId="2" startPc="268439533"/>
-<entry arg="true" endPc="268439614" name="metric" stackId="3" startPc="268439533"/>
-<entry endPc="268439613" name="tempF" stackId="4" startPc="268439580"/>
-<entry arg="true" endPc="268439690" name="dc" stackId="1" startPc="268439615"/>
-<entry arg="true" endPc="268439690" name="x" stackId="2" startPc="268439615"/>
-<entry arg="true" endPc="268439690" name="y" stackId="3" startPc="268439615"/>
-<entry arg="true" endPc="268439800" name="dc" stackId="1" startPc="268439691"/>
-<entry arg="true" endPc="268439800" name="x" stackId="2" startPc="268439691"/>
-<entry arg="true" endPc="268439800" name="y" stackId="3" startPc="268439691"/>
-<entry arg="true" endPc="268440060" name="dc" stackId="1" startPc="268439801"/>
-<entry arg="true" endPc="268440060" name="x" stackId="2" startPc="268439801"/>
-<entry arg="true" endPc="268440060" name="y" stackId="3" startPc="268439801"/>
-<entry arg="true" endPc="268440244" name="dc" stackId="1" startPc="268440061"/>
-<entry arg="true" endPc="268440244" name="x" stackId="2" startPc="268440061"/>
-<entry arg="true" endPc="268440244" name="y" stackId="3" startPc="268440061"/>
+<entry endPc="268437559" name="x" stackId="4" startPc="268437232"/>
+<entry endPc="268437559" name="y" stackId="5" startPc="268437232"/>
+<entry endPc="268437559" name="maxHr" stackId="6" startPc="268437232"/>
+<entry endPc="268437556" name="msg" stackId="7" startPc="268437508"/>
+<entry arg="true" endPc="268437642" name="dc" stackId="1" startPc="268437614"/>
+<entry arg="true" endPc="268437642" name="recoveryHours" stackId="2" startPc="268437614"/>
+<entry arg="true" endPc="268437642" name="x" stackId="3" startPc="268437614"/>
+<entry arg="true" endPc="268437642" name="y" stackId="4" startPc="268437614"/>
+<entry arg="true" endPc="268437826" name="dc" stackId="1" startPc="268437696"/>
+<entry endPc="268437825" name="x" stackId="2" startPc="268437699"/>
+<entry endPc="268437825" name="y" stackId="3" startPc="268437699"/>
+<entry endPc="268437825" name="width" stackId="4" startPc="268437699"/>
+<entry endPc="268437825" name="height" stackId="5" startPc="268437699"/>
+<entry endPc="268437825" name="info" stackId="6" startPc="268437699"/>
+<entry endPc="268437825" name="hr" stackId="7" startPc="268437699"/>
+<entry endPc="268437996" name="info" stackId="1" startPc="268437830"/>
+<entry arg="true" endPc="268438022" name="dc" stackId="1" startPc="268437998"/>
+<entry arg="true" endPc="268438286" name="dc" stackId="1" startPc="268438049"/>
+<entry endPc="268438285" name="currentTime" stackId="2" startPc="268438052"/>
+<entry endPc="268438147" name="newStats" stackId="3" startPc="268438109"/>
+<entry endPc="268438282" name="battery" stackId="4" startPc="268438160"/>
+<entry endPc="268438282" name="batteryInDays" stackId="5" startPc="268438160"/>
+<entry arg="true" endPc="268438420" name="dc" stackId="1" startPc="268438331"/>
+<entry arg="true" endPc="268438603" name="dc" stackId="1" startPc="268438421"/>
+<entry endPc="268438602" name="now" stackId="2" startPc="268438424"/>
+<entry endPc="268438602" name="info" stackId="3" startPc="268438424"/>
+<entry endPc="268438602" name="dayOfWeek" stackId="4" startPc="268438424"/>
+<entry endPc="268438602" name="dayOfMonth" stackId="5" startPc="268438424"/>
+<entry arg="true" endPc="268438748" name="currentHr" stackId="1" startPc="268438604"/>
+<entry arg="true" endPc="268438748" name="maxHr" stackId="2" startPc="268438604"/>
+<entry endPc="268438747" name="percentage" stackId="3" startPc="268438615"/>
+<entry endPc="268438846" name="profile" stackId="1" startPc="268438760"/>
+<entry endPc="268438846" name="now" stackId="2" startPc="268438760"/>
+<entry endPc="268438846" name="info" stackId="3" startPc="268438760"/>
+<entry endPc="268438846" name="currentYear" stackId="4" startPc="268438760"/>
+<entry endPc="268438846" name="age" stackId="5" startPc="268438760"/>
+<entry endPc="268438846" name="maxHr" stackId="6" startPc="268438760"/>
+<entry arg="true" endPc="268439082" name="dc" stackId="1" startPc="268438847"/>
+<entry arg="true" endPc="268439082" name="x" stackId="2" startPc="268438847"/>
+<entry arg="true" endPc="268439082" name="y" stackId="3" startPc="268438847"/>
+<entry arg="true" endPc="268439229" name="clockTime" stackId="1" startPc="268439126"/>
+<entry endPc="268439229" name="hour12" stackId="2" startPc="268439137"/>
+<entry endPc="268439229" name="timeString" stackId="3" startPc="268439137"/>
+<entry arg="true" endPc="268439382" name="dc" stackId="1" startPc="268439230"/>
+<entry arg="true" endPc="268439382" name="x" stackId="2" startPc="268439230"/>
+<entry arg="true" endPc="268439382" name="y" stackId="3" startPc="268439230"/>
+<entry arg="true" endPc="268439544" name="dc" stackId="1" startPc="268439383"/>
+<entry arg="true" endPc="268439544" name="x" stackId="2" startPc="268439383"/>
+<entry arg="true" endPc="268439544" name="y" stackId="3" startPc="268439383"/>
+<entry endPc="268439543" name="bx" stackId="4" startPc="268439394"/>
+<entry endPc="268439543" name="by" stackId="5" startPc="268439394"/>
+<entry arg="true" endPc="268439626" name="tempC" stackId="1" startPc="268439545"/>
+<entry arg="true" endPc="268439626" name="settings" stackId="2" startPc="268439545"/>
+<entry arg="true" endPc="268439626" name="metric" stackId="3" startPc="268439545"/>
+<entry endPc="268439625" name="tempF" stackId="4" startPc="268439592"/>
+<entry arg="true" endPc="268439702" name="dc" stackId="1" startPc="268439627"/>
+<entry arg="true" endPc="268439702" name="x" stackId="2" startPc="268439627"/>
+<entry arg="true" endPc="268439702" name="y" stackId="3" startPc="268439627"/>
+<entry arg="true" endPc="268439812" name="dc" stackId="1" startPc="268439703"/>
+<entry arg="true" endPc="268439812" name="x" stackId="2" startPc="268439703"/>
+<entry arg="true" endPc="268439812" name="y" stackId="3" startPc="268439703"/>
+<entry arg="true" endPc="268440072" name="dc" stackId="1" startPc="268439813"/>
+<entry arg="true" endPc="268440072" name="x" stackId="2" startPc="268439813"/>
+<entry arg="true" endPc="268440072" name="y" stackId="3" startPc="268439813"/>
+<entry arg="true" endPc="268440256" name="dc" stackId="1" startPc="268440073"/>
+<entry arg="true" endPc="268440256" name="x" stackId="2" startPc="268440073"/>
+<entry arg="true" endPc="268440256" name="y" stackId="3" startPc="268440073"/>
 </localVars>
 <deviceInfo deviceVersion="8fc30743a4191ec19bcafa28e3ffcc2b5a958a17" partNumber="006-B4585-00"/>
 <annotations>
@@ -513,8 +513,8 @@
 <dataEntryOffsetMappings>
 <dataEntry label="globals" offset="85" parentId="" symbolId="globals" type="module"/>
 <dataEntry label="globals/MyWatchFace" offset="179" parentId="globals" symbolId="MyWatchFace" type="class"/>
-<dataEntry label="globals/Rez" offset="475" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry label="globals/HeartRateHelpers" offset="519" parentId="globals" symbolId="HeartRateHelpers" type="module"/>
+<dataEntry label="globals/Rez" offset="466" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/HeartRateHelpers" offset="510" parentId="globals" symbolId="HeartRateHelpers" type="module"/>
 <dataEntry label="globals/ShapeHelpers" offset="554" parentId="globals" symbolId="ShapeHelpers" type="module"/>
 <dataEntry label="globals/MyProjectApp" offset="589" parentId="globals" symbolId="MyProjectApp" type="class"/>
 <dataEntry label="globals/TimeHelpers" offset="642" parentId="globals" symbolId="TimeHelpers" type="module"/>
@@ -571,53 +571,50 @@
 <functionEntry accessMode="public" endPc="268437228" name="onHide" parent="MyWatchFace" startPc="268437214">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437556" name="drawHeartRate" parent="MyWatchFace" startPc="268437229">
+<functionEntry accessMode="public" endPc="268437560" name="drawHeartRate" parent="MyWatchFace" startPc="268437229">
 <param id="dc"/>
 <param id="hr"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437609" name="onExitSleep" parent="MyWatchFace" startPc="268437557">
+<functionEntry accessMode="public" endPc="268437613" name="onExitSleep" parent="MyWatchFace" startPc="268437561">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437638" name="drawRecovery" parent="MyWatchFace" startPc="268437610">
+<functionEntry accessMode="public" endPc="268437642" name="drawRecovery" parent="MyWatchFace" startPc="268437614">
 <param id="dc"/>
 <param id="recoveryHours"/>
 <param id="x"/>
 <param id="y"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437691" name="onShow" parent="MyWatchFace" startPc="268437639">
+<functionEntry accessMode="public" endPc="268437695" name="onShow" parent="MyWatchFace" startPc="268437643">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437822" name="partialUpdateHeartRate" parent="MyWatchFace" startPc="268437692">
+<functionEntry accessMode="public" endPc="268437826" name="partialUpdateHeartRate" parent="MyWatchFace" startPc="268437696">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437993" name="updateActivityData" parent="MyWatchFace" startPc="268437823">
+<functionEntry accessMode="public" endPc="268437997" name="updateActivityData" parent="MyWatchFace" startPc="268437827">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438083" name="calculateMaxHrByAge" parent="MyWatchFace" startPc="268437994">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268438108" name="onPartialUpdate" parent="MyWatchFace" startPc="268438084">
+<functionEntry accessMode="public" endPc="268438022" name="onPartialUpdate" parent="MyWatchFace" startPc="268437998">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438134" name="onEnterSleep" parent="MyWatchFace" startPc="268438109">
+<functionEntry accessMode="public" endPc="268438048" name="onEnterSleep" parent="MyWatchFace" startPc="268438023">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438372" name="drawBattery" parent="MyWatchFace" startPc="268438135">
+<functionEntry accessMode="public" endPc="268438286" name="drawBattery" parent="MyWatchFace" startPc="268438049">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438416" name="initialize" parent="MyWatchFace" startPc="268438373">
+<functionEntry accessMode="public" endPc="268438330" name="initialize" parent="MyWatchFace" startPc="268438287">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438506" name="onUpdate" parent="MyWatchFace" startPc="268438417">
+<functionEntry accessMode="public" endPc="268438420" name="onUpdate" parent="MyWatchFace" startPc="268438331">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438689" name="drawDate" parent="MyWatchFace" startPc="268438507">
+<functionEntry accessMode="public" endPc="268438603" name="drawDate" parent="MyWatchFace" startPc="268438421">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
@@ -627,64 +624,67 @@
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438834" name="getHeartRateMessage" parent="HeartRateHelpers" startPc="268438690">
+<functionEntry accessMode="public" endPc="268438748" name="getHeartRateMessage" parent="HeartRateHelpers" startPc="268438604">
 <param id="currentHr"/>
 <param id="maxHr"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439070" name="drawRunner" parent="ShapeHelpers" startPc="268438835">
+<functionEntry accessMode="public" endPc="268438846" name="calculateMaxHrByAge" parent="HeartRateHelpers" startPc="268438749">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268439082" name="drawRunner" parent="ShapeHelpers" startPc="268438847">
 <param id="dc"/>
 <param id="x"/>
 <param id="y"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439098" name="getInitialView" parent="MyProjectApp" startPc="268439071">
+<functionEntry accessMode="public" endPc="268439110" name="getInitialView" parent="MyProjectApp" startPc="268439083">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439113" name="initialize" parent="MyProjectApp" startPc="268439099">
+<functionEntry accessMode="public" endPc="268439125" name="initialize" parent="MyProjectApp" startPc="268439111">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439217" name="getFormattedTime" parent="TimeHelpers" startPc="268439114">
+<functionEntry accessMode="public" endPc="268439229" name="getFormattedTime" parent="TimeHelpers" startPc="268439126">
 <param id="clockTime"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439370" name="drawSnow" parent="WeatherHelpers" startPc="268439218">
+<functionEntry accessMode="public" endPc="268439382" name="drawSnow" parent="WeatherHelpers" startPc="268439230">
 <param id="dc"/>
 <param id="x"/>
 <param id="y"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439532" name="drawStorm" parent="WeatherHelpers" startPc="268439371">
+<functionEntry accessMode="public" endPc="268439544" name="drawStorm" parent="WeatherHelpers" startPc="268439383">
 <param id="dc"/>
 <param id="x"/>
 <param id="y"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439614" name="tempFormatter" parent="WeatherHelpers" startPc="268439533">
+<functionEntry accessMode="public" endPc="268439626" name="tempFormatter" parent="WeatherHelpers" startPc="268439545">
 <param id="tempC"/>
 <param id="settings"/>
 <param id="metric"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439690" name="drawMoon" parent="WeatherHelpers" startPc="268439615">
+<functionEntry accessMode="public" endPc="268439702" name="drawMoon" parent="WeatherHelpers" startPc="268439627">
 <param id="dc"/>
 <param id="x"/>
 <param id="y"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268439800" name="drawClouds" parent="WeatherHelpers" startPc="268439691">
+<functionEntry accessMode="public" endPc="268439812" name="drawClouds" parent="WeatherHelpers" startPc="268439703">
 <param id="dc"/>
 <param id="x"/>
 <param id="y"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268440060" name="drawSun" parent="WeatherHelpers" startPc="268439801">
+<functionEntry accessMode="public" endPc="268440072" name="drawSun" parent="WeatherHelpers" startPc="268439813">
 <param id="dc"/>
 <param id="x"/>
 <param id="y"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268440244" name="drawRain" parent="WeatherHelpers" startPc="268440061">
+<functionEntry accessMode="public" endPc="268440256" name="drawRain" parent="WeatherHelpers" startPc="268440073">
 <param id="dc"/>
 <param id="x"/>
 <param id="y"/>
