@@ -1,0 +1,13 @@
+bin/
+**/bin/
+mir/
+**/mir/
+source/gen/
+**/source/gen/
+source/internal-mir/
+
+*.der
+developer_key
+
+.DS_Store
+.settings/

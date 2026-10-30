@@ -1,0 +1,2 @@
+- Add this watch face to any Instinct 3 Solar 45mm watch by plugging watch into computer and dropping the bin/GarminWatchFace.prg file into the GARMIN/APPS folder
+- <img width="381" height="498" alt="image" src="https://github.com/user-attachments/assets/02d61683-01e9-4e76-9c57-f8060849cb65" />
